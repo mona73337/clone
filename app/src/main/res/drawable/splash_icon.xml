@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/splash_icon_static">
+    <target android:name="ghost" android:animation="@animator/ghost_rise" />
+    <target android:name="ghostPath" android:animation="@animator/ghost_fade" />
+</animated-vector>

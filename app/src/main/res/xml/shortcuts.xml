@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="today" android:enabled="true" android:icon="@drawable/sc_today"
+        android:shortcutShortLabel="@string/shortcut_today" android:shortcutLongLabel="@string/shortcut_today_long">
+        <intent android:action="android.intent.action.VIEW" android:data="clone://route/aotd"
+            android:targetPackage="app.clone" android:targetClass="app.clone.MainActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="search" android:enabled="true" android:icon="@drawable/sc_search"
+        android:shortcutShortLabel="@string/shortcut_search" android:shortcutLongLabel="@string/shortcut_search_long">
+        <intent android:action="android.intent.action.VIEW" android:data="clone://route/search?focus=1"
+            android:targetPackage="app.clone" android:targetClass="app.clone.MainActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="library" android:enabled="true" android:icon="@drawable/sc_library"
+        android:shortcutShortLabel="@string/shortcut_library" android:shortcutLongLabel="@string/shortcut_library_long">
+        <intent android:action="android.intent.action.VIEW" android:data="clone://route/library"
+            android:targetPackage="app.clone" android:targetClass="app.clone.MainActivity" />
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 288dp splash canvas (Android 12+): the mark sits inside the 192dp safe circle. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="288dp" android:height="288dp"
+    android:viewportWidth="288" android:viewportHeight="288">
+    <group android:name="top" android:pivotX="144" android:pivotY="140">
+        <path android:fillColor="@color/mark" android:pathData="M88,139.5a56,56 0,0 1,112 0z" />
+    </group>
+    <group android:name="ghost" android:pivotX="144" android:pivotY="148">
+        <path android:name="ghostPath" android:fillColor="@color/mark" android:fillAlpha="0.32"
+            android:pathData="M88,148.5a56,56 0,0 0,112 0z" />
+    </group>
+</vector>

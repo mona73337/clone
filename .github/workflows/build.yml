@@ -1,0 +1,65 @@
+name: Build APK
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HAS_SIGNING_KEY: ${{ secrets.CLONE_KEYSTORE_BASE64 != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Version from tag
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          echo "CLONE_VERSION_NAME=${GITHUB_REF_NAME#v}" >> "$GITHUB_ENV"
+          echo "CLONE_VERSION_CODE=${{ github.run_number }}" >> "$GITHUB_ENV"
+
+      - name: Restore signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.CLONE_KEYSTORE_BASE64 }}
+        if: env.HAS_SIGNING_KEY == 'true'
+        run: |
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/clone-release.p12"
+          echo "CLONE_KEYSTORE=$RUNNER_TEMP/clone-release.p12" >> "$GITHUB_ENV"
+
+      - name: Build release APK
+        env:
+          CLONE_KEYSTORE_PASSWORD: ${{ secrets.CLONE_KEYSTORE_PASSWORD }}
+          CLONE_KEY_ALIAS: ${{ secrets.CLONE_KEY_ALIAS }}
+          CLONE_KEY_PASSWORD: ${{ secrets.CLONE_KEY_PASSWORD }}
+        run: ./gradlew --no-daemon assembleRelease
+
+      - name: Collect APK
+        run: |
+          mkdir -p dist
+          cp app/build/outputs/apk/release/*.apk "dist/Clone-${CLONE_VERSION_NAME:-snapshot}.apk"
+          ls -la dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Clone-apk
+          path: dist/*.apk
+
+      - name: Publish GitHub release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.apk
+          generate_release_notes: true

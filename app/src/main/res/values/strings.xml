@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clone</string>
+    <string name="channel_daily">App of the Day</string>
+    <string name="channel_daily_desc">One open-source twin of a popular app, every day.</string>
+    <string name="shortcut_today">Today’s pick</string>
+    <string name="shortcut_today_long">Open today’s App of the Day</string>
+    <string name="shortcut_search">Search</string>
+    <string name="shortcut_search_long">Find an open-source twin</string>
+    <string name="shortcut_library">Library</string>
+    <string name="shortcut_library_long">Your saved twins</string>
+</resources>

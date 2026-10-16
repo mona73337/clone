@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light root; values-night swaps it for the dark framework theme (drives isLightTheme). -->
+    <style name="Clone.Root" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Clone.Base" parent="Clone.Root">
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="android:colorPrimary">@color/bg</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">@bool/light_bars</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="Theme.Clone" parent="Clone.Base" />
+</resources>

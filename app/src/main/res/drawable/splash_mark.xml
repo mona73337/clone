@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Clone mark: a disc split at the equator, its lower half a mirrored ghost. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="88dp" android:height="88dp"
+    android:viewportWidth="120" android:viewportHeight="120">
+    <path android:fillColor="@color/mark" android:pathData="M16,56.5a44,44 0,0 1,88 0z" />
+    <path android:fillColor="@color/mark" android:fillAlpha="0.32" android:pathData="M16,63.5a44,44 0,0 0,88 0z" />
+</vector>

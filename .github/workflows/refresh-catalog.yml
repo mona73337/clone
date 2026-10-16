@@ -1,0 +1,30 @@
+name: Refresh catalog snapshot
+
+# Re-reads public GitHub data (stars, releases, icons) for every twin and commits the new
+# bundled catalog. The app also refreshes live on-device; this keeps the offline snapshot fresh.
+on:
+  schedule:
+    - cron: "17 6 * * 1"   # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+      - run: PARALLEL=12 ./data/refresh.sh
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "clone-bot"
+          git config user.email "clone-bot@users.noreply.github.com"
+          git add data/raw app/src/main/assets/www/data/catalog.json
+          git commit -m "Refresh catalog snapshot"
+          git push

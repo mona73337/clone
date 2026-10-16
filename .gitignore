@@ -1,0 +1,18 @@
+# Gradle / Android Studio
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing material never goes in git
+*.jks
+*.p12
+*.keystore
+signing/
+
+# Data refresh cache
+data/.cache/
