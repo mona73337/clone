@@ -1,189 +1,232 @@
 {
-"home-assistant/core": {
-"name": "Home Assistant",
-"website_url": "https://home-assistant.io/",
-"description": "Home automation platform.",
+"mastodon/mastodon": {
+"name": "Mastodon",
+"website_url": "https://joinmastodon.org/",
+"description": "Federated microblogging server.",
 "licenses": [
-"Apache-2.0"
-],
-"platforms": [
-"Python",
-"Docker"
-],
-"tags": [
-"Internet of Things (IoT)"
-],
-"source_code_url": "https://github.com/home-assistant/core",
-"demo_url": "https://home-assistant.io/demo/",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/home-assistant.webp",
-"stargazers_count": 91896,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "2026.11.0b2",
-"published_at": "2026-10-30"
-},
-"commit_history": {
-"2025-12": 1379,
-"2026-01": 1024,
-"2026-02": 1524,
-"2026-03": 1623,
-"2026-04": 1550,
-"2026-05": 1701,
-"2026-06": 1773,
-"2026-07": 1589,
-"2026-08": 2235,
-"2026-09": 1749,
-"2026-10": 4555,
-"2026-11": 70
-}
-},
-"bookwyrm-social/bookwyrm": {
-"name": "Bookwyrm",
-"website_url": "https://joinbookwyrm.com/",
-"description": "Social network for tracking your reading, talking about books, writing reviews, and discovering what to read next.",
-"licenses": [
-"\u2298 Proprietary"
-],
-"platforms": [
-"Python"
-],
-"tags": [
-"Document Management - E-books"
-],
-"source_code_url": "https://github.com/bookwyrm-social/bookwyrm",
-"icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/bookwyrm.webp",
-"stargazers_count": 2809,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v0.9.4",
-"published_at": "2026-10-29"
-},
-"commit_history": {
-"2025-12": 44,
-"2026-01": 125,
-"2026-02": 222,
-"2026-03": 43,
-"2026-04": 40,
-"2026-05": 154,
-"2026-06": 221,
-"2026-07": 175,
-"2026-08": 105,
-"2026-09": 140,
-"2026-10": 114,
-"2026-11": 3
-}
-},
-"huginn/huginn": {
-"name": "Huginn",
-"website_url": "https://github.com/huginn/huginn",
-"description": "Build agents that monitor and act on your behalf.",
-"licenses": [
-"MIT"
+"AGPL-3.0"
 ],
 "platforms": [
 "Ruby"
 ],
 "tags": [
-"Automation"
+"Communication - Social Networks and Forums"
 ],
-"source_code_url": "https://github.com/huginn/huginn",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/huginn.webp",
-"stargazers_count": 50255,
-"updated_at": "2026-11-01",
+"source_code_url": "https://github.com/mastodon/mastodon",
+"related_software_url": "https://github.com/hyperupcall/awesome-mastodon",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/mastodon.webp",
+"stargazers_count": 50499,
+"updated_at": "2026-11-06",
 "archived": false,
 "current_release": {
-"tag": "v2026.11.01",
-"published_at": "2026-11-02"
+"tag": "v5.0.0-beta.1",
+"published_at": "2026-11-08"
 },
 "commit_history": {
-"2025-12": 1,
-"2026-01": 0,
-"2026-02": 7,
-"2026-03": 125,
-"2026-04": 37,
-"2026-05": 41,
-"2026-06": 26,
-"2026-07": 26,
-"2026-08": 33,
-"2026-09": 74,
-"2026-10": 96,
-"2026-11": 3
+"2025-12": 170,
+"2026-01": 219,
+"2026-02": 218,
+"2026-03": 332,
+"2026-04": 255,
+"2026-05": 210,
+"2026-06": 301,
+"2026-07": 221,
+"2026-08": 205,
+"2026-09": 307,
+"2026-10": 447,
+"2026-11": 84
 }
 },
-"bigbluebutton/bigbluebutton": {
-"name": "BigBlueButton",
-"website_url": "https://bigbluebutton.org/",
-"description": "Supports real-time sharing of audio, video, slides (with whiteboard controls), chat, and the screen. Instructors can engage remote students with polling, emojis, and breakout rooms.",
+"lemmynet/lemmy": {
+"name": "Lemmy",
+"website_url": "https://join-lemmy.org/",
+"description": "Link aggregator for the fediverse (alternative to Reddit).",
 "licenses": [
-"LGPL-3.0"
+"AGPL-3.0"
 ],
 "platforms": [
-"Java"
+"Docker",
+"Rust"
 ],
 "tags": [
-"Communication - Video Conferencing"
+"Communication - Social Networks and Forums"
 ],
-"source_code_url": "https://github.com/bigbluebutton/bigbluebutton",
-"icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/bigbluebutton.webp",
-"stargazers_count": 9262,
-"updated_at": "2026-10-30",
+"source_code_url": "https://github.com/LemmyNet/lemmy",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/lemmy.webp",
+"stargazers_count": 14669,
+"updated_at": "2026-11-06",
 "archived": false,
 "current_release": {
-"tag": "v4.0.1",
+"tag": "1.0.0-beta.3",
 "published_at": "2026-10-29"
 },
 "commit_history": {
-"2025-12": 133,
-"2026-01": 183,
-"2026-02": 96,
-"2026-03": 144,
-"2026-04": 134,
-"2026-05": 134,
-"2026-06": 141,
-"2026-07": 168,
-"2026-08": 263,
-"2026-09": 329,
-"2026-10": 696,
-"2026-11": 0
+"2025-12": 59,
+"2026-01": 21,
+"2026-02": 26,
+"2026-03": 32,
+"2026-04": 27,
+"2026-05": 37,
+"2026-06": 24,
+"2026-07": 14,
+"2026-08": 11,
+"2026-09": 17,
+"2026-10": 34,
+"2026-11": 6
 }
 },
-"cryptpad/cryptpad": {
-"name": "CryptPad",
-"website_url": "https://cryptpad.org",
-"description": "Collaboration suite built to enable collaboration, synchronizing changes to documents in real time.",
+"lobehub/lobehub": {
+"name": "LobeHub",
+"website_url": "https://www.lobehub.com",
+"source_code_url": "https://github.com/lobehub/lobehub",
+"description": "Modern design AI chat framework supporting multiple AI providers, one click install MCP Marketplace and Artifacts / Thinking.",
 "licenses": [
-"AGPL-3.0"
+"\u2298 Proprietary"
 ],
 "platforms": [
 "Nodejs",
 "Docker"
 ],
 "tags": [
-"Office Suites"
+"Generative Artificial Intelligence (GenAI)"
 ],
-"source_code_url": "https://github.com/cryptpad/cryptpad",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/cryptpad.webp",
-"stargazers_count": 8036,
-"updated_at": "2026-10-28",
+"related_software_url": "https://lobehub.com/mcp",
+"icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/lobehub.webp",
+"stargazers_count": 84433,
+"updated_at": "2026-11-09",
 "archived": false,
 "current_release": {
-"tag": "2026.10.0",
-"published_at": "2026-10-21"
+"tag": "v0.0.0-nightly.pr22563.38530",
+"published_at": "2026-11-07"
 },
 "commit_history": {
-"2025-12": 40,
-"2026-01": 69,
-"2026-02": 79,
-"2026-03": 127,
-"2026-04": 70,
-"2026-05": 91,
+"2025-12": 546,
+"2026-01": 940,
+"2026-02": 378,
+"2026-03": 438,
+"2026-04": 583,
+"2026-05": 733,
+"2026-06": 741,
+"2026-07": 889,
+"2026-08": 731,
+"2026-09": 928,
+"2026-10": 1320,
+"2026-11": 334
+}
+},
+"navidrome/navidrome": {
+"name": "Navidrome Music Server",
+"website_url": "https://www.navidrome.org",
+"description": "Modern Music Server and Streamer, compatible with Subsonic/Airsonic.",
+"licenses": [
+"GPL-3.0"
+],
+"platforms": [
+"Docker",
+"Go"
+],
+"tags": [
+"Media Streaming - Audio Streaming"
+],
+"source_code_url": "https://github.com/navidrome/navidrome",
+"demo_url": "https://www.navidrome.org/demo",
+"related_software_url": "https://www.navidrome.org/docs/overview/#apps",
+"stargazers_count": 24597,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "v0.64.2",
+"published_at": "2026-09-24"
+},
+"commit_history": {
+"2025-12": 44,
+"2026-01": 54,
+"2026-02": 81,
+"2026-03": 114,
+"2026-04": 71,
+"2026-05": 43,
+"2026-06": 62,
+"2026-07": 78,
+"2026-08": 89,
+"2026-09": 108,
+"2026-10": 21,
+"2026-11": 9
+}
+},
+"firefly-iii/firefly-iii": {
+"name": "Firefly III",
+"website_url": "https://firefly-iii.org/",
+"description": "Modern financial manager. It helps you to keep track of your money and make budget forecasts. It supports credit cards, has an advanced rule engine and can import data from many banks.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"PHP",
+"Docker"
+],
+"tags": [
+"Money, Budgeting & Management"
+],
+"source_code_url": "https://github.com/firefly-iii/firefly-iii",
+"demo_url": "https://demo.firefly-iii.org/",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/firefly-iii.webp",
+"stargazers_count": 25179,
+"updated_at": "2026-10-26",
+"archived": false,
+"current_release": {
+"tag": "develop-20261107.2",
+"published_at": "2026-11-07"
+},
+"commit_history": {
+"2025-12": 141,
+"2026-01": 291,
+"2026-02": 320,
+"2026-03": 312,
+"2026-04": 165,
+"2026-05": 119,
+"2026-06": 102,
+"2026-07": 268,
+"2026-08": 237,
+"2026-09": 498,
+"2026-10": 200,
+"2026-11": 0
+}
+},
+"apache/answer": {
+"name": "Answer",
+"website_url": "https://answer.apache.org",
+"description": "Knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.",
+"licenses": [
+"Apache-2.0"
+],
+"platforms": [
+"Docker",
+"Go"
+],
+"tags": [
+"Communication - Social Networks and Forums"
+],
+"source_code_url": "https://github.com/apache/answer",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/apache-answer.webp",
+"stargazers_count": 15710,
+"updated_at": "2026-09-22",
+"archived": false,
+"current_release": {
+"tag": "v2.0.3",
+"published_at": "2026-10-09"
+},
+"commit_history": {
+"2025-12": 73,
+"2026-01": 59,
+"2026-02": 1,
+"2026-03": 10,
+"2026-04": 2,
+"2026-05": 28,
 "2026-06": 0,
-"2026-07": 0,
-"2026-08": 120,
-"2026-09": 104,
-"2026-10": 89,
+"2026-07": 34,
+"2026-08": 24,
+"2026-09": 16,
+"2026-10": 0,
 "2026-11": 0
 }
 },
@@ -202,12 +245,12 @@
 "Task Management & To-do Lists"
 ],
 "icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/super-productivity.webp",
-"stargazers_count": 23341,
-"updated_at": "2026-11-01",
+"stargazers_count": 23512,
+"updated_at": "2026-11-08",
 "archived": false,
 "current_release": {
-"tag": "v19.3.1",
-"published_at": "2026-10-25"
+"tag": "v20.0.0",
+"published_at": "2026-11-06"
 },
 "commit_history": {
 "2026-02": 485,
@@ -219,7 +262,201 @@
 "2026-08": 287,
 "2026-09": 296,
 "2026-10": 556,
-"2026-11": 10
+"2026-11": 164
+}
+},
+"stirling-tools/stirling-pdf": {
+"name": "Stirling-PDF",
+"website_url": "https://github.com/Stirling-Tools/Stirling-PDF",
+"description": "Local hosted web application that allows you to perform various operations on PDF files, such as merging, splitting, file conversions and OCR.",
+"licenses": [
+"Apache-2.0"
+],
+"platforms": [
+"Docker",
+"Java"
+],
+"tags": [
+"Document Management"
+],
+"source_code_url": "https://github.com/Stirling-Tools/Stirling-PDF",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/stirling-pdf.webp",
+"stargazers_count": 96059,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "v3.3.0",
+"published_at": "2026-11-05"
+},
+"commit_history": {
+"2025-12": 119,
+"2026-01": 131,
+"2026-02": 102,
+"2026-03": 116,
+"2026-04": 121,
+"2026-05": 118,
+"2026-06": 248,
+"2026-07": 213,
+"2026-08": 305,
+"2026-09": 309,
+"2026-10": 181,
+"2026-11": 56
+}
+},
+"huginn/huginn": {
+"name": "Huginn",
+"website_url": "https://github.com/huginn/huginn",
+"description": "Build agents that monitor and act on your behalf.",
+"licenses": [
+"MIT"
+],
+"platforms": [
+"Ruby"
+],
+"tags": [
+"Automation"
+],
+"source_code_url": "https://github.com/huginn/huginn",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/huginn.webp",
+"stargazers_count": 50433,
+"updated_at": "2026-11-09",
+"archived": false,
+"current_release": {
+"tag": "v2026.11.09",
+"published_at": "2026-11-09"
+},
+"commit_history": {
+"2025-12": 1,
+"2026-01": 0,
+"2026-02": 7,
+"2026-03": 125,
+"2026-04": 37,
+"2026-05": 41,
+"2026-06": 26,
+"2026-07": 26,
+"2026-08": 33,
+"2026-09": 74,
+"2026-10": 96,
+"2026-11": 23
+}
+},
+"advplyr/audiobookshelf": {
+"name": "Audiobookshelf",
+"website_url": "https://www.audiobookshelf.org/",
+"description": "Audiobook and podcast server. It streams all audio formats, keeps and syncs progress across devices. Comes with apps for Android and iOS.",
+"licenses": [
+"GPL-3.0"
+],
+"platforms": [
+"Docker",
+"deb",
+"Nodejs"
+],
+"tags": [
+"Media Streaming - Audio Streaming",
+"Document Management - E-books"
+],
+"source_code_url": "https://github.com/advplyr/audiobookshelf",
+"related_software_url": "https://github.com/advplyr/audiobookshelf-app",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/audiobookshelf.webp",
+"stargazers_count": 14946,
+"updated_at": "2026-11-09",
+"archived": false,
+"current_release": {
+"tag": "v2.37.2",
+"published_at": "2026-10-23"
+},
+"commit_history": {
+"2025-12": 45,
+"2026-01": 3,
+"2026-02": 37,
+"2026-03": 56,
+"2026-04": 50,
+"2026-05": 23,
+"2026-06": 14,
+"2026-07": 79,
+"2026-08": 37,
+"2026-09": 80,
+"2026-10": 16,
+"2026-11": 9
+}
+},
+"syncthing/syncthing": {
+"name": "Syncthing",
+"website_url": "https://syncthing.net/",
+"description": "Peer-to-peer file synchronisation tool.",
+"licenses": [
+"MPL-2.0"
+],
+"platforms": [
+"Go",
+"Docker",
+"deb"
+],
+"tags": [
+"File Transfer & Synchronization"
+],
+"source_code_url": "https://github.com/syncthing/syncthing",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/syncthing.webp",
+"stargazers_count": 90249,
+"updated_at": "2026-11-02",
+"archived": false,
+"current_release": {
+"tag": "v2.1.7",
+"published_at": "2026-10-21"
+},
+"commit_history": {
+"2025-12": 15,
+"2026-01": 10,
+"2026-02": 14,
+"2026-03": 14,
+"2026-04": 38,
+"2026-05": 36,
+"2026-06": 24,
+"2026-07": 30,
+"2026-08": 17,
+"2026-09": 16,
+"2026-10": 20,
+"2026-11": 1
+}
+},
+"blakeblackshear/frigate": {
+"name": "Frigate",
+"website_url": "https://frigate.video/",
+"description": "Monitor your security cameras with locally processed AI.",
+"licenses": [
+"MIT"
+],
+"platforms": [
+"Docker",
+"Python",
+"Nodejs"
+],
+"tags": [
+"Video Surveillance"
+],
+"source_code_url": "https://github.com/blakeblackshear/frigate",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/frigate.webp",
+"stargazers_count": 37343,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "v0.18.2",
+"published_at": "2026-10-15"
+},
+"commit_history": {
+"2025-12": 109,
+"2026-01": 57,
+"2026-02": 140,
+"2026-03": 222,
+"2026-04": 139,
+"2026-05": 97,
+"2026-06": 74,
+"2026-07": 92,
+"2026-08": 86,
+"2026-09": 290,
+"2026-10": 149,
+"2026-11": 83
 }
 },
 "outline/outline": {
@@ -239,8 +476,8 @@
 "source_code_url": "https://github.com/outline/outline",
 "depends_3rdparty": true,
 "icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/outline.webp",
-"stargazers_count": 41133,
-"updated_at": "2026-11-01",
+"stargazers_count": 41204,
+"updated_at": "2026-11-08",
 "archived": false,
 "current_release": {
 "tag": "v1.12.0",
@@ -258,83 +495,953 @@
 "2026-08": 262,
 "2026-09": 213,
 "2026-10": 392,
+"2026-11": 67
+}
+},
+"wger-project/wger": {
+"name": "wger",
+"website_url": "https://wger.de/",
+"description": "Web-based personal workout, fitness and weight logger/tracker. It can also be used as a simple gym management utility and offers a full REST API as well.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Python",
+"Docker"
+],
+"tags": [
+"Health and Fitness"
+],
+"source_code_url": "https://github.com/wger-project/wger",
+"demo_url": "https://wger.de/en/dashboard",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/wger.webp",
+"stargazers_count": 7246,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "2.7",
+"published_at": "2026-09-03"
+},
+"commit_history": {
+"2025-12": 62,
+"2026-01": 81,
+"2026-02": 76,
+"2026-03": 112,
+"2026-04": 149,
+"2026-05": 206,
+"2026-06": 113,
+"2026-07": 85,
+"2026-08": 240,
+"2026-09": 52,
+"2026-10": 120,
+"2026-11": 59
+}
+},
+"lichess-org/lila": {
+"name": "Lila",
+"website_url": "https://lichess.org/",
+"description": "Ad-less chess server powering lichess.org, with official iOS and Android client apps.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Scala"
+],
+"tags": [
+"Games"
+],
+"source_code_url": "https://github.com/lichess-org/lila",
+"stargazers_count": 18958,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "v1.1.0",
+"published_at": "2017-08-31"
+},
+"commit_history": {
+"2025-12": 706,
+"2026-01": 869,
+"2026-02": 1145,
+"2026-03": 713,
+"2026-04": 530,
+"2026-05": 476,
+"2026-06": 629,
+"2026-07": 989,
+"2026-08": 942,
+"2026-09": 1159,
+"2026-10": 1198,
+"2026-11": 209
+}
+},
+"n8n-io/n8n": {
+"name": "n8n",
+"website_url": "https://n8n.io/",
+"description": "Free node based Workflow Automation Tool. Easily automate tasks across different services.",
+"licenses": [
+"Apache-2.0",
+"Commons-Clause"
+],
+"platforms": [
+"Nodejs"
+],
+"tags": [
+"Automation"
+],
+"source_code_url": "https://github.com/n8n-io/n8n",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/n8n.webp",
+"stargazers_count": 209858,
+"updated_at": "2026-11-09",
+"archived": false,
+"current_release": {
+"tag": "stable",
+"published_at": "2026-11-04"
+},
+"commit_history": {
+"2025-12": 497,
+"2026-01": 531,
+"2026-02": 527,
+"2026-03": 542,
+"2026-04": 710,
+"2026-05": 833,
+"2026-06": 1177,
+"2026-07": 1150,
+"2026-08": 1116,
+"2026-09": 1437,
+"2026-10": 1679,
+"2026-11": 137
+}
+},
+"jellyfin/jellyfin": {
+"name": "Jellyfin",
+"website_url": "https://jellyfin.org",
+"description": "Media server for audio, video, books, comics, and photos with a sleek interface and robust transcoding capabilities. Almost all modern platforms have clients, including Roku, Android TV, iOS, and Kodi.",
+"licenses": [
+"GPL-2.0"
+],
+"platforms": [
+"C#",
+"deb",
+"Docker"
+],
+"tags": [
+"Media Streaming - Multimedia Streaming"
+],
+"source_code_url": "https://github.com/jellyfin/jellyfin",
+"demo_url": "https://demo.jellyfin.org/stable",
+"related_software_url": "https://github.com/awesome-jellyfin/awesome-jellyfin",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/jellyfin.webp",
+"stargazers_count": 59142,
+"updated_at": "2026-11-06",
+"archived": false,
+"current_release": {
+"tag": "v12.4",
+"published_at": "2026-10-26"
+},
+"commit_history": {
+"2025-12": 98,
+"2026-01": 89,
+"2026-02": 77,
+"2026-03": 152,
+"2026-04": 159,
+"2026-05": 346,
+"2026-06": 216,
+"2026-07": 265,
+"2026-08": 332,
+"2026-09": 204,
+"2026-10": 78,
+"2026-11": 16
+}
+},
+"searxng/searxng": {
+"name": "SearXNG",
+"website_url": "https://docs.searxng.org/",
+"description": "Internet metasearch engine which aggregates results from various search services and databases (fork of Searx).",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Python",
+"Docker"
+],
+"tags": [
+"Search Engines"
+],
+"source_code_url": "https://github.com/searxng/searxng/",
+"depends_3rdparty": true,
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/searxng.webp",
+"stargazers_count": 39359,
+"updated_at": "2026-11-08",
+"archived": false,
+"commit_history": {
+"2025-12": 55,
+"2026-01": 47,
+"2026-02": 44,
+"2026-03": 74,
+"2026-04": 44,
+"2026-05": 82,
+"2026-06": 125,
+"2026-07": 79,
+"2026-08": 33,
+"2026-09": 123,
+"2026-10": 51,
+"2026-11": 16
+}
+},
+"zulip/zulip": {
+"name": "Zulip",
+"website_url": "https://zulip.org",
+"description": "Powerful group chat application.",
+"licenses": [
+"Apache-2.0"
+],
+"platforms": [
+"Python"
+],
+"tags": [
+"Communication - Custom Communication Systems"
+],
+"source_code_url": "https://github.com/zulip/zulip",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/zulip.webp",
+"stargazers_count": 26192,
+"updated_at": "2026-11-06",
+"archived": false,
+"current_release": {
+"tag": "13.0-rc2",
+"published_at": "2026-11-06"
+},
+"commit_history": {
+"2025-12": 530,
+"2026-01": 576,
+"2026-02": 618,
+"2026-03": 619,
+"2026-04": 677,
+"2026-05": 238,
+"2026-06": 264,
+"2026-07": 244,
+"2026-08": 209,
+"2026-09": 280,
+"2026-10": 357,
+"2026-11": 33
+}
+},
+"appflowy-io/appflowy": {
+"name": "AppFlowy",
+"website_url": "https://appflowy.io/",
+"description": "Build detailed lists of to-do\u2019s for different projects while tracking the status of each one (alternative to Notion).",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Rust",
+"Dart",
+"Docker"
+],
+"tags": [
+"Task Management & To-do Lists"
+],
+"source_code_url": "https://github.com/AppFlowy-IO/appflowy",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/appflowy.webp",
+"stargazers_count": 78493,
+"updated_at": "2026-10-28",
+"archived": false,
+"current_release": {
+"tag": "0.15.0",
+"published_at": "2026-11-02"
+},
+"commit_history": {
+"2025-12": 0,
+"2026-01": 0,
+"2026-02": 0,
+"2026-03": 1,
+"2026-04": 0,
+"2026-05": 0,
+"2026-06": 1,
+"2026-07": 0,
+"2026-08": 0,
+"2026-09": 0,
+"2026-10": 1,
+"2026-11": 0
+}
+},
+"writefreely/writefreely": {
+"name": "WriteFreely",
+"website_url": "https://writefreely.org",
+"description": "Writing software for starting a minimalist, federated blog \u2014 or an entire community.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Go"
+],
+"tags": [
+"Blogging Platforms"
+],
+"source_code_url": "https://github.com/writefreely/writefreely",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/writefreely.webp",
+"stargazers_count": 5287,
+"updated_at": "2026-11-09",
+"archived": false,
+"current_release": {
+"tag": "v0.17.2",
+"published_at": "2026-08-10"
+},
+"commit_history": {
+"2025-12": 3,
+"2026-01": 11,
+"2026-02": 20,
+"2026-03": 14,
+"2026-04": 20,
+"2026-05": 15,
+"2026-06": 15,
+"2026-07": 43,
+"2026-08": 60,
+"2026-09": 6,
+"2026-10": 1,
+"2026-11": 15
+}
+},
+"ente/ente": {
+"name": "Ente",
+"website_url": "https://ente.com/",
+"source_code_url": "https://github.com/ente/ente",
+"description": "End-to-end encrypted photo-sharing platform (alternative to Google Photos, Apple Photos).",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Docker",
+"Nodejs",
+"Go"
+],
+"tags": [
+"Photo Galleries"
+],
+"stargazers_count": 29990,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "photos-v1.3.69",
+"published_at": "2026-11-05"
+},
+"commit_history": {
+"2025-12": 1240,
+"2026-01": 1387,
+"2026-02": 1140,
+"2026-03": 1587,
+"2026-04": 1019,
+"2026-05": 1511,
+"2026-06": 1464,
+"2026-07": 1921,
+"2026-08": 1964,
+"2026-09": 2155,
+"2026-10": 2242,
+"2026-11": 173
+}
+},
+"makeplane/plane": {
+"name": "Plane",
+"website_url": "https://plane.so",
+"description": "Track issues, epics, and product roadmaps in the simplest way possible (alternative to JIRA, Linear and Height).",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Docker"
+],
+"tags": [
+"Software Development - Project Management"
+],
+"source_code_url": "https://github.com/makeplane/plane",
+"demo_url": "https://app.plane.so",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/plane.webp",
+"stargazers_count": 62162,
+"updated_at": "2026-11-03",
+"archived": false,
+"current_release": {
+"tag": "v1.4.3",
+"published_at": "2026-10-28"
+},
+"commit_history": {
+"2025-12": 207,
+"2026-01": 22,
+"2026-02": 54,
+"2026-03": 65,
+"2026-04": 27,
+"2026-05": 25,
+"2026-06": 35,
+"2026-07": 37,
+"2026-08": 42,
+"2026-09": 72,
+"2026-10": 91,
 "2026-11": 5
 }
 },
-"rocketchat/rocket.chat": {
-"name": "Rocket.Chat",
-"website_url": "https://rocket.chat/",
-"description": "Communications platform that puts data protection first (alternative to Gitter.im and Slack).",
+"go-vikunja/vikunja": {
+"name": "Vikunja",
+"website_url": "https://vikunja.io/",
+"source_code_url": "https://github.com/go-vikunja/vikunja",
+"description": "To-do app to organize your life.",
+"licenses": [
+"AGPL-3.0",
+"GPL-3.0"
+],
+"platforms": [
+"Go"
+],
+"tags": [
+"Task Management & To-do Lists"
+],
+"demo_url": "https://try.vikunja.io/login",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/vikunja.webp",
+"stargazers_count": 6003,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "v2.8.0",
+"published_at": "2026-11-05"
+},
+"commit_history": {
+"2026-04": 451,
+"2026-05": 207,
+"2026-06": 419,
+"2026-07": 358,
+"2026-08": 455,
+"2026-09": 727,
+"2026-10": 484,
+"2026-11": 290
+}
+},
+"cryptpad/cryptpad": {
+"name": "CryptPad",
+"website_url": "https://cryptpad.org",
+"description": "Collaboration suite built to enable collaboration, synchronizing changes to documents in real time.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Nodejs",
+"Docker"
+],
+"tags": [
+"Office Suites"
+],
+"source_code_url": "https://github.com/cryptpad/cryptpad",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/cryptpad.webp",
+"stargazers_count": 8058,
+"updated_at": "2026-11-06",
+"archived": false,
+"current_release": {
+"tag": "2026.10.0",
+"published_at": "2026-10-21"
+},
+"commit_history": {
+"2025-12": 40,
+"2026-01": 69,
+"2026-02": 79,
+"2026-03": 127,
+"2026-04": 70,
+"2026-05": 91,
+"2026-06": 0,
+"2026-07": 0,
+"2026-08": 120,
+"2026-09": 104,
+"2026-10": 89,
+"2026-11": 3
+}
+},
+"element-hq/element-web": {
+"name": "Element",
+"website_url": "https://element.io",
+"description": "Fully-featured Matrix client for Web, iOS & Android.",
+"licenses": [
+"Apache-2.0"
+],
+"platforms": [
+"Nodejs"
+],
+"tags": [
+"Communication - Custom Communication Systems"
+],
+"source_code_url": "https://github.com/element-hq/element-web",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/element.webp",
+"stargazers_count": 13640,
+"updated_at": "2026-11-06",
+"archived": false,
+"current_release": {
+"tag": "v1.12.34-rc.1",
+"published_at": "2026-11-06"
+},
+"commit_history": {
+"2025-12": 151,
+"2026-01": 236,
+"2026-02": 312,
+"2026-03": 294,
+"2026-04": 286,
+"2026-05": 224,
+"2026-06": 288,
+"2026-07": 270,
+"2026-08": 225,
+"2026-09": 257,
+"2026-10": 214,
+"2026-11": 79
+}
+},
+"chocobozzz/peertube": {
+"name": "PeerTube",
+"website_url": "https://joinpeertube.org/en/",
+"description": "Decentralized video streaming platform using P2P (BitTorrent) directly in the web browser.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Nodejs"
+],
+"tags": [
+"Media Streaming - Video Streaming"
+],
+"source_code_url": "https://github.com/Chocobozzz/PeerTube",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/peertube.webp",
+"stargazers_count": 15394,
+"updated_at": "2026-11-06",
+"archived": false,
+"current_release": {
+"tag": "v8.3.2",
+"published_at": "2026-10-26"
+},
+"commit_history": {
+"2025-12": 200,
+"2026-01": 106,
+"2026-02": 162,
+"2026-03": 177,
+"2026-04": 206,
+"2026-05": 175,
+"2026-06": 123,
+"2026-07": 200,
+"2026-08": 234,
+"2026-09": 74,
+"2026-10": 203,
+"2026-11": 29
+}
+},
+"pixelfed/pixelfed": {
+"name": "PixelFed",
+"website_url": "https://pixelfed.social",
+"description": "Ethical photo sharing platform, powered by ActivityPub federation (alternative to Instagram).",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"PHP"
+],
+"tags": [
+"Communication - Social Networks and Forums"
+],
+"source_code_url": "https://github.com/pixelfed/pixelfed",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/pixelfed.webp",
+"stargazers_count": 7141,
+"updated_at": "2026-11-07",
+"archived": false,
+"current_release": {
+"tag": "v0.15.2",
+"published_at": "2026-10-21"
+},
+"commit_history": {
+"2025-12": 23,
+"2026-01": 49,
+"2026-02": 83,
+"2026-03": 78,
+"2026-04": 5,
+"2026-05": 14,
+"2026-06": 25,
+"2026-07": 2,
+"2026-08": 645,
+"2026-09": 2432,
+"2026-10": 666,
+"2026-11": 197
+}
+},
+"onlyoffice/documentserver": {
+"name": "ONLYOFFICE",
+"website_url": "https://helpcenter.onlyoffice.com/faq/server-opensource.aspx",
+"description": "Office suite that enables you to manage documents, projects, team and customer relations in one place.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Nodejs",
+"Docker"
+],
+"tags": [
+"Office Suites"
+],
+"source_code_url": "https://github.com/ONLYOFFICE/DocumentServer",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/onlyoffice.webp",
+"stargazers_count": 7100,
+"updated_at": "2026-10-26",
+"archived": false,
+"current_release": {
+"tag": "v10.0.0",
+"published_at": "2026-10-12"
+},
+"commit_history": {
+"2025-12": 6,
+"2026-01": 0,
+"2026-02": 3,
+"2026-03": 4,
+"2026-04": 0,
+"2026-05": 5,
+"2026-06": 2,
+"2026-07": 1,
+"2026-08": 0,
+"2026-09": 0,
+"2026-10": 7,
+"2026-11": 0
+}
+},
+"actualbudget/actual": {
+"name": "Actual",
+"website_url": "https://actualbudget.org",
+"description": "Local-first personal finance tool based on zero-sum budgeting, supporting synchronization across devices, custom rules, manual transaction importing (from QIF, OFX, and QFX files), and optional automatic synchronization with many banks.",
 "licenses": [
 "MIT"
 ],
 "platforms": [
 "Nodejs",
+"Docker"
+],
+"tags": [
+"Money, Budgeting & Management"
+],
+"source_code_url": "https://github.com/actualbudget/actual",
+"stargazers_count": 30098,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "v26.11.0",
+"published_at": "2026-11-02"
+},
+"commit_history": {
+"2025-12": 110,
+"2026-01": 136,
+"2026-02": 117,
+"2026-03": 118,
+"2026-04": 182,
+"2026-05": 164,
+"2026-06": 165,
+"2026-07": 88,
+"2026-08": 89,
+"2026-09": 82,
+"2026-10": 162,
+"2026-11": 46
+}
+},
+"owncast/owncast": {
+"name": "Owncast",
+"website_url": "https://owncast.online/",
+"description": "Decentralized single-user live video streaming and chat server for running your own live streams similar in style to the large mainstream options.",
+"licenses": [
+"MIT"
+],
+"platforms": [
+"Go"
+],
+"tags": [
+"Media Streaming - Video Streaming"
+],
+"source_code_url": "https://github.com/owncast/owncast",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/owncast.webp",
+"stargazers_count": 11647,
+"updated_at": "2026-11-09",
+"archived": false,
+"current_release": {
+"tag": "v0.3.0",
+"published_at": "2026-09-03"
+},
+"commit_history": {
+"2025-12": 105,
+"2026-01": 113,
+"2026-02": 121,
+"2026-03": 135,
+"2026-04": 103,
+"2026-05": 134,
+"2026-06": 230,
+"2026-07": 190,
+"2026-08": 63,
+"2026-09": 85,
+"2026-10": 42,
+"2026-11": 4
+}
+},
+"ollama/ollama": {
+"name": "Ollama",
+"website_url": "https://ollama.com/",
+"source_code_url": "https://github.com/ollama/ollama",
+"description": "Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, and other large language models.",
+"licenses": [
+"MIT"
+],
+"platforms": [
+"Docker",
+"Python"
+],
+"tags": [
+"Generative Artificial Intelligence (GenAI)"
+],
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/ollama.webp",
+"stargazers_count": 186386,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "v0.40.15",
+"published_at": "2026-11-03"
+},
+"commit_history": {
+"2025-12": 78,
+"2026-01": 105,
+"2026-02": 110,
+"2026-03": 123,
+"2026-04": 112,
+"2026-05": 43,
+"2026-06": 98,
+"2026-07": 94,
+"2026-08": 104,
+"2026-09": 110,
+"2026-10": 153,
+"2026-11": 22
+}
+},
+"libretranslate/libretranslate": {
+"name": "Libre Translate",
+"website_url": "https://libretranslate.com/",
+"description": "Machine Translation API.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Docker",
+"Python"
+],
+"tags": [
+"Miscellaneous"
+],
+"source_code_url": "https://github.com/LibreTranslate/LibreTranslate",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/libretranslate.webp",
+"stargazers_count": 17332,
+"updated_at": "2026-10-26",
+"archived": false,
+"current_release": {
+"tag": "v1.9.6",
+"published_at": "2026-05-26"
+},
+"commit_history": {
+"2025-12": 41,
+"2026-01": 17,
+"2026-02": 51,
+"2026-03": 17,
+"2026-04": 3,
+"2026-05": 4,
+"2026-06": 11,
+"2026-07": 6,
+"2026-08": 7,
+"2026-09": 5,
+"2026-10": 8,
+"2026-11": 0
+}
+},
+"bigbluebutton/bigbluebutton": {
+"name": "BigBlueButton",
+"website_url": "https://bigbluebutton.org/",
+"description": "Supports real-time sharing of audio, video, slides (with whiteboard controls), chat, and the screen. Instructors can engage remote students with polling, emojis, and breakout rooms.",
+"licenses": [
+"LGPL-3.0"
+],
+"platforms": [
+"Java"
+],
+"tags": [
+"Communication - Video Conferencing"
+],
+"source_code_url": "https://github.com/bigbluebutton/bigbluebutton",
+"icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/bigbluebutton.webp",
+"stargazers_count": 9271,
+"updated_at": "2026-11-06",
+"archived": false,
+"current_release": {
+"tag": "v4.0.2",
+"published_at": "2026-11-06"
+},
+"commit_history": {
+"2025-12": 133,
+"2026-01": 183,
+"2026-02": 96,
+"2026-03": 144,
+"2026-04": 134,
+"2026-05": 134,
+"2026-06": 141,
+"2026-07": 168,
+"2026-08": 263,
+"2026-09": 329,
+"2026-10": 865,
+"2026-11": 159
+}
+},
+"haiwen/seafile": {
+"name": "Seafile",
+"website_url": "https://www.seafile.com/en/home/",
+"description": "File hosting and sharing solution primary for teams and organizations.",
+"licenses": [
+"GPL-2.0",
+"GPL-3.0",
+"AGPL-3.0",
+"Apache-2.0"
+],
+"platforms": [
+"C"
+],
+"tags": [
+"File Transfer & Synchronization",
+"Groupware"
+],
+"source_code_url": "https://github.com/haiwen/seafile",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/seafile.webp",
+"stargazers_count": 15440,
+"updated_at": "2026-10-16",
+"archived": false,
+"current_release": {
+"tag": "v9.0.5",
+"published_at": "2024-02-27"
+},
+"commit_history": {
+"2025-12": 2,
+"2026-01": 4,
+"2026-02": 2,
+"2026-03": 3,
+"2026-04": 4,
+"2026-05": 1,
+"2026-06": 9,
+"2026-07": 6,
+"2026-08": 2,
+"2026-09": 0,
+"2026-10": 6,
+"2026-11": 0
+}
+},
+"mattermost/mattermost": {
+"name": "Mattermost",
+"website_url": "https://mattermost.com/",
+"description": "Platform for secure collaboration across the entire software development lifecycle, can be integrated with Gitlab (alternative to Slack).",
+"licenses": [
+"\u2298 Proprietary"
+],
+"platforms": [
+"Go",
 "Docker",
 "K8S"
 ],
 "tags": [
 "Communication - Custom Communication Systems"
 ],
-"source_code_url": "https://github.com/RocketChat/Rocket.Chat",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/rocket-chat.webp",
-"stargazers_count": 46357,
-"updated_at": "2026-10-31",
+"source_code_url": "https://github.com/mattermost/mattermost",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/mattermost.webp",
+"stargazers_count": 39558,
+"updated_at": "2026-11-08",
 "archived": false,
 "current_release": {
-"tag": "9.0.0-rc.3",
-"published_at": "2026-10-31"
+"tag": "v12.1.0-rc4",
+"published_at": "2026-11-05"
 },
 "commit_history": {
-"2025-12": 303,
-"2026-01": 143,
-"2026-02": 203,
-"2026-03": 172,
-"2026-04": 167,
-"2026-05": 174,
-"2026-06": 199,
-"2026-07": 274,
-"2026-08": 157,
-"2026-09": 195,
-"2026-10": 418,
-"2026-11": 0
+"2025-12": 87,
+"2026-01": 120,
+"2026-02": 133,
+"2026-03": 165,
+"2026-04": 199,
+"2026-05": 208,
+"2026-06": 190,
+"2026-07": 218,
+"2026-08": 170,
+"2026-09": 282,
+"2026-10": 296,
+"2026-11": 95
 }
 },
-"penpot/penpot": {
-"name": "penpot",
-"website_url": "https://penpot.app/",
-"description": "Web-based design and prototyping platform meant for cross-domain teams.",
+"iv-org/invidious": {
+"name": "Invidious",
+"website_url": "https://github.com/iv-org/invidious",
+"description": "Alternative YouTube front-end.",
 "licenses": [
-"MPL-2.0"
+"AGPL-3.0"
 ],
 "platforms": [
+"Docker",
+"Crystal"
+],
+"tags": [
+"Media Streaming - Video Streaming"
+],
+"source_code_url": "https://github.com/iv-org/invidious",
+"demo_url": "https://docs.invidious.io/instances/",
+"depends_3rdparty": true,
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/invidious.webp",
+"stargazers_count": 25901,
+"updated_at": "2026-11-05",
+"archived": false,
+"current_release": {
+"tag": "v2.20261103.0",
+"published_at": "2026-11-03"
+},
+"commit_history": {
+"2025-12": 27,
+"2026-01": 8,
+"2026-02": 21,
+"2026-03": 4,
+"2026-04": 10,
+"2026-05": 19,
+"2026-06": 16,
+"2026-07": 14,
+"2026-08": 101,
+"2026-09": 12,
+"2026-10": 42,
+"2026-11": 14
+}
+},
+"freshrss/freshrss": {
+"name": "FreshRSS",
+"website_url": "https://freshrss.org/",
+"description": "Self-hostable RSS feed aggregator.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"PHP",
 "Docker"
 ],
 "tags": [
-"Miscellaneous"
+"Feed Readers"
 ],
-"source_code_url": "https://github.com/penpot/penpot",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/penpot.webp",
-"stargazers_count": 61966,
-"updated_at": "2026-11-01",
+"source_code_url": "https://github.com/FreshRSS/FreshRSS",
+"demo_url": "https://demo.freshrss.org/i/",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/freshrss.webp",
+"stargazers_count": 16535,
+"updated_at": "2026-11-08",
 "archived": false,
 "current_release": {
-"tag": "2.18.5",
-"published_at": "2026-10-26"
+"tag": "1.30.4",
+"published_at": "2026-10-21"
 },
 "commit_history": {
-"2025-12": 299,
-"2026-01": 422,
-"2026-02": 485,
-"2026-03": 494,
-"2026-04": 545,
-"2026-05": 512,
-"2026-06": 558,
-"2026-07": 362,
-"2026-08": 293,
-"2026-09": 515,
-"2026-10": 462,
-"2026-11": 3
+"2025-12": 67,
+"2026-01": 56,
+"2026-02": 24,
+"2026-03": 55,
+"2026-04": 52,
+"2026-05": 97,
+"2026-06": 32,
+"2026-07": 99,
+"2026-08": 52,
+"2026-09": 66,
+"2026-10": 96,
+"2026-11": 18
 }
 },
 "diaspora/diaspora": {
@@ -373,196 +1480,116 @@
 "2026-11": 0
 }
 },
-"jellyfin/jellyfin": {
-"name": "Jellyfin",
-"website_url": "https://jellyfin.org",
-"description": "Media server for audio, video, books, comics, and photos with a sleek interface and robust transcoding capabilities. Almost all modern platforms have clients, including Roku, Android TV, iOS, and Kodi.",
+"penpot/penpot": {
+"name": "penpot",
+"website_url": "https://penpot.app/",
+"description": "Web-based design and prototyping platform meant for cross-domain teams.",
 "licenses": [
-"GPL-2.0"
-],
-"platforms": [
-"C#",
-"deb",
-"Docker"
-],
-"tags": [
-"Media Streaming - Multimedia Streaming"
-],
-"source_code_url": "https://github.com/jellyfin/jellyfin",
-"demo_url": "https://demo.jellyfin.org/stable",
-"related_software_url": "https://github.com/awesome-jellyfin/awesome-jellyfin",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/jellyfin.webp",
-"stargazers_count": 58906,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v12.4",
-"published_at": "2026-10-26"
-},
-"commit_history": {
-"2025-12": 98,
-"2026-01": 89,
-"2026-02": 77,
-"2026-03": 152,
-"2026-04": 159,
-"2026-05": 346,
-"2026-06": 216,
-"2026-07": 265,
-"2026-08": 332,
-"2026-09": 203,
-"2026-10": 75,
-"2026-11": 1
-}
-},
-"immich-app/immich": {
-"name": "Immich",
-"website_url": "https://immich.app/",
-"description": "Photo and video backup solution directly from your mobile phone (alternative to Google Photos).",
-"licenses": [
-"AGPL-3.0"
+"MPL-2.0"
 ],
 "platforms": [
 "Docker"
 ],
 "tags": [
-"Photo Galleries"
+"Miscellaneous"
 ],
-"source_code_url": "https://github.com/immich-app/immich",
-"demo_url": "https://github.com/immich-app/immich#demo",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/immich.webp",
-"stargazers_count": 117910,
-"updated_at": "2026-11-01",
+"source_code_url": "https://github.com/penpot/penpot",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/penpot.webp",
+"stargazers_count": 62194,
+"updated_at": "2026-11-07",
 "archived": false,
 "current_release": {
-"tag": "v3.4.0-rc.1",
-"published_at": "2026-10-30"
+"tag": "2.18.6",
+"published_at": "2026-11-04"
 },
 "commit_history": {
-"2025-12": 131,
-"2026-01": 265,
-"2026-02": 300,
-"2026-03": 258,
-"2026-04": 236,
-"2026-05": 215,
-"2026-06": 270,
-"2026-07": 262,
-"2026-08": 252,
-"2026-09": 217,
-"2026-10": 287,
-"2026-11": 1
+"2025-12": 299,
+"2026-01": 422,
+"2026-02": 485,
+"2026-03": 494,
+"2026-04": 545,
+"2026-05": 512,
+"2026-06": 558,
+"2026-07": 362,
+"2026-08": 293,
+"2026-09": 518,
+"2026-10": 477,
+"2026-11": 151
 }
 },
-"apache/answer": {
-"name": "Answer",
-"website_url": "https://answer.apache.org",
-"description": "Knowledge-based community software. You can use it to quickly build your Q&A community for product technical support, customer support, user communication, and more.",
+"saleor/saleor": {
+"name": "Saleor",
+"website_url": "https://saleor.io",
+"description": "GraphQL native, API-only platform for scalable composable e-commerce storefront.",
 "licenses": [
-"Apache-2.0"
+"BSD-3-Clause"
 ],
 "platforms": [
 "Docker",
-"Go"
+"Python"
 ],
 "tags": [
-"Communication - Social Networks and Forums"
+"E-commerce"
 ],
-"source_code_url": "https://github.com/apache/answer",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/apache-answer.webp",
-"stargazers_count": 15707,
-"updated_at": "2026-09-22",
+"source_code_url": "https://github.com/saleor/saleor",
+"demo_url": "https://demo.saleor.io/",
+"stargazers_count": 23515,
+"updated_at": "2026-11-06",
 "archived": false,
 "current_release": {
-"tag": "v2.0.3",
-"published_at": "2026-10-09"
+"tag": "3.23.47",
+"published_at": "2026-11-03"
 },
 "commit_history": {
-"2025-12": 73,
-"2026-01": 59,
-"2026-02": 1,
-"2026-03": 10,
-"2026-04": 2,
-"2026-05": 28,
-"2026-06": 0,
-"2026-07": 34,
-"2026-08": 24,
-"2026-09": 16,
-"2026-10": 0,
-"2026-11": 0
-}
-},
-"opf/openproject": {
-"name": "OpenProject",
-"website_url": "https://www.openproject.org",
-"description": "Manage your projects, tasks and goals. Collaborate via work packages and link them to your pull requests on Github.",
-"licenses": [
-"GPL-3.0"
-],
-"platforms": [
-"Ruby",
-"deb",
-"Docker"
-],
-"tags": [
-"Software Development - Project Management"
-],
-"source_code_url": "https://github.com/opf/openproject",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/openproject.webp",
-"stargazers_count": 16910,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v17.9.6",
-"published_at": "2026-10-30"
-},
-"commit_history": {
-"2025-12": 761,
-"2026-01": 928,
-"2026-02": 1334,
-"2026-03": 1699,
-"2026-04": 1345,
-"2026-05": 1453,
-"2026-06": 1709,
-"2026-07": 1724,
-"2026-08": 1413,
-"2026-09": 2735,
-"2026-10": 2450,
-"2026-11": 6
-}
-},
-"friendica/friendica": {
-"name": "Friendica",
-"website_url": "https://friendi.ca/",
-"description": "Social Communication Server.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"PHP"
-],
-"tags": [
-"Communication - Social Networks and Forums"
-],
-"source_code_url": "https://github.com/friendica/friendica",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/friendica.webp",
-"stargazers_count": 1698,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "2026.05-1",
-"published_at": "2026-05-21"
-},
-"commit_history": {
-"2026-01": 143,
-"2026-02": 199,
-"2026-03": 120,
-"2026-04": 163,
-"2026-05": 373,
-"2026-06": 359,
-"2026-07": 234,
-"2026-08": 535,
-"2026-09": 224,
-"2026-10": 166,
+"2025-12": 27,
+"2026-01": 24,
+"2026-02": 62,
+"2026-03": 55,
+"2026-04": 37,
+"2026-05": 24,
+"2026-06": 57,
+"2026-07": 58,
+"2026-08": 47,
+"2026-09": 34,
+"2026-10": 35,
 "2026-11": 7
+}
+},
+"laurent22/joplin": {
+"name": "Joplin",
+"website_url": "https://joplinapp.org/",
+"description": "Note taking application with markdown editor and encryption support for mobile and desktop platforms. Runs client-side and syncs through your own Nextcloud instance or similar (alternative to Evernote).",
+"licenses": [
+"MIT"
+],
+"platforms": [
+"Nodejs"
+],
+"tags": [
+"Note-taking & Editors"
+],
+"source_code_url": "https://github.com/laurent22/joplin",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/joplin.webp",
+"stargazers_count": 57101,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "v3.7.22",
+"published_at": "2026-10-28"
+},
+"commit_history": {
+"2025-12": 126,
+"2026-01": 163,
+"2026-02": 193,
+"2026-03": 212,
+"2026-04": 155,
+"2026-05": 253,
+"2026-06": 195,
+"2026-07": 197,
+"2026-08": 162,
+"2026-09": 187,
+"2026-10": 135,
+"2026-11": 119
 }
 },
 "plankanban/planka": {
@@ -583,12 +1610,12 @@
 "source_code_url": "https://github.com/plankanban/planka",
 "demo_url": "https://plankanban.github.io/planka/#/",
 "icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/planka.webp",
-"stargazers_count": 12659,
-"updated_at": "2026-10-28",
+"stargazers_count": 12669,
+"updated_at": "2026-11-06",
 "archived": false,
 "current_release": {
-"tag": "v2.2.1",
-"published_at": "2026-08-10"
+"tag": "v2.3.1",
+"published_at": "2026-11-05"
 },
 "commit_history": {
 "2025-12": 22,
@@ -602,622 +1629,7 @@
 "2026-08": 17,
 "2026-09": 56,
 "2026-10": 10,
-"2026-11": 0
-}
-},
-"writefreely/writefreely": {
-"name": "WriteFreely",
-"website_url": "https://writefreely.org",
-"description": "Writing software for starting a minimalist, federated blog \u2014 or an entire community.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Go"
-],
-"tags": [
-"Blogging Platforms"
-],
-"source_code_url": "https://github.com/writefreely/writefreely",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/writefreely.webp",
-"stargazers_count": 5283,
-"updated_at": "2026-09-28",
-"archived": false,
-"current_release": {
-"tag": "v0.17.2",
-"published_at": "2026-08-10"
-},
-"commit_history": {
-"2025-12": 3,
-"2026-01": 11,
-"2026-02": 20,
-"2026-03": 14,
-"2026-04": 20,
-"2026-05": 15,
-"2026-06": 15,
-"2026-07": 43,
-"2026-08": 60,
-"2026-09": 5,
-"2026-10": 0,
-"2026-11": 0
-}
-},
-"mastodon/mastodon": {
-"name": "Mastodon",
-"website_url": "https://joinmastodon.org/",
-"description": "Federated microblogging server.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Ruby"
-],
-"tags": [
-"Communication - Social Networks and Forums"
-],
-"source_code_url": "https://github.com/mastodon/mastodon",
-"related_software_url": "https://github.com/hyperupcall/awesome-mastodon",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/mastodon.webp",
-"stargazers_count": 50464,
-"updated_at": "2026-10-30",
-"archived": false,
-"current_release": {
-"tag": "v4.7.4",
-"published_at": "2026-10-29"
-},
-"commit_history": {
-"2025-12": 170,
-"2026-01": 219,
-"2026-02": 218,
-"2026-03": 332,
-"2026-04": 255,
-"2026-05": 210,
-"2026-06": 301,
-"2026-07": 221,
-"2026-08": 205,
-"2026-09": 307,
-"2026-10": 447,
-"2026-11": 0
-}
-},
-"advplyr/audiobookshelf": {
-"name": "Audiobookshelf",
-"website_url": "https://www.audiobookshelf.org/",
-"description": "Audiobook and podcast server. It streams all audio formats, keeps and syncs progress across devices. Comes with apps for Android and iOS.",
-"licenses": [
-"GPL-3.0"
-],
-"platforms": [
-"Docker",
-"deb",
-"Nodejs"
-],
-"tags": [
-"Media Streaming - Audio Streaming",
-"Document Management - E-books"
-],
-"source_code_url": "https://github.com/advplyr/audiobookshelf",
-"related_software_url": "https://github.com/advplyr/audiobookshelf-app",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/audiobookshelf.webp",
-"stargazers_count": 14884,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v2.37.2",
-"published_at": "2026-10-23"
-},
-"commit_history": {
-"2025-12": 45,
-"2026-01": 3,
-"2026-02": 37,
-"2026-03": 56,
-"2026-04": 50,
-"2026-05": 23,
-"2026-06": 14,
-"2026-07": 79,
-"2026-08": 37,
-"2026-09": 80,
-"2026-10": 14,
-"2026-11": 4
-}
-},
-"appflowy-io/appflowy": {
-"name": "AppFlowy",
-"website_url": "https://appflowy.io/",
-"description": "Build detailed lists of to-do\u2019s for different projects while tracking the status of each one (alternative to Notion).",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Rust",
-"Dart",
-"Docker"
-],
-"tags": [
-"Task Management & To-do Lists"
-],
-"source_code_url": "https://github.com/AppFlowy-IO/appflowy",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/appflowy.webp",
-"stargazers_count": 78079,
-"updated_at": "2026-10-28",
-"archived": false,
-"current_release": {
-"tag": "0.14.11",
-"published_at": "2026-10-26"
-},
-"commit_history": {
-"2025-12": 0,
-"2026-01": 0,
-"2026-02": 0,
-"2026-03": 1,
-"2026-04": 0,
-"2026-05": 0,
-"2026-06": 1,
-"2026-07": 0,
-"2026-08": 0,
-"2026-09": 0,
-"2026-10": 1,
-"2026-11": 0
-}
-},
-"wger-project/wger": {
-"name": "wger",
-"website_url": "https://wger.de/",
-"description": "Web-based personal workout, fitness and weight logger/tracker. It can also be used as a simple gym management utility and offers a full REST API as well.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Python",
-"Docker"
-],
-"tags": [
-"Health and Fitness"
-],
-"source_code_url": "https://github.com/wger-project/wger",
-"demo_url": "https://wger.de/en/dashboard",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/wger.webp",
-"stargazers_count": 7220,
-"updated_at": "2026-10-29",
-"archived": false,
-"current_release": {
-"tag": "2.7",
-"published_at": "2026-09-03"
-},
-"commit_history": {
-"2025-12": 62,
-"2026-01": 81,
-"2026-02": 76,
-"2026-03": 112,
-"2026-04": 149,
-"2026-05": 206,
-"2026-06": 113,
-"2026-07": 85,
-"2026-08": 240,
-"2026-09": 50,
-"2026-10": 114,
-"2026-11": 0
-}
-},
-"owncast/owncast": {
-"name": "Owncast",
-"website_url": "https://owncast.online/",
-"description": "Decentralized single-user live video streaming and chat server for running your own live streams similar in style to the large mainstream options.",
-"licenses": [
-"MIT"
-],
-"platforms": [
-"Go"
-],
-"tags": [
-"Media Streaming - Video Streaming"
-],
-"source_code_url": "https://github.com/owncast/owncast",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/owncast.webp",
-"stargazers_count": 11642,
-"updated_at": "2026-10-25",
-"archived": false,
-"current_release": {
-"tag": "v0.3.0",
-"published_at": "2026-09-03"
-},
-"commit_history": {
-"2025-12": 105,
-"2026-01": 113,
-"2026-02": 121,
-"2026-03": 135,
-"2026-04": 103,
-"2026-05": 134,
-"2026-06": 230,
-"2026-07": 190,
-"2026-08": 63,
-"2026-09": 85,
-"2026-10": 42,
-"2026-11": 0
-}
-},
-"onlyoffice/documentserver": {
-"name": "ONLYOFFICE",
-"website_url": "https://helpcenter.onlyoffice.com/faq/server-opensource.aspx",
-"description": "Office suite that enables you to manage documents, projects, team and customer relations in one place.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Nodejs",
-"Docker"
-],
-"tags": [
-"Office Suites"
-],
-"source_code_url": "https://github.com/ONLYOFFICE/DocumentServer",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/onlyoffice.webp",
-"stargazers_count": 7074,
-"updated_at": "2026-10-26",
-"archived": false,
-"current_release": {
-"tag": "v10.0.0",
-"published_at": "2026-10-12"
-},
-"commit_history": {
-"2025-12": 6,
-"2026-01": 0,
-"2026-02": 3,
-"2026-03": 4,
-"2026-04": 0,
-"2026-05": 5,
-"2026-06": 2,
-"2026-07": 1,
-"2026-08": 0,
-"2026-09": 0,
-"2026-10": 7,
-"2026-11": 0
-}
-},
-"pi-hole/pi-hole": {
-"name": "Pi-hole",
-"website_url": "https://pi-hole.net/",
-"description": "Blackhole for Internet advertisements with a GUI for management and monitoring.",
-"licenses": [
-"EUPL-1.2"
-],
-"platforms": [
-"Shell",
-"PHP",
-"Docker"
-],
-"tags": [
-"DNS"
-],
-"source_code_url": "https://github.com/pi-hole/pi-hole",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/pi-hole.webp",
-"stargazers_count": 61627,
-"updated_at": "2026-10-17",
-"archived": false,
-"current_release": {
-"tag": "v6.5",
-"published_at": "2026-10-17"
-},
-"commit_history": {
-"2025-12": 11,
-"2026-01": 14,
-"2026-02": 22,
-"2026-03": 33,
-"2026-04": 49,
-"2026-05": 33,
-"2026-06": 16,
-"2026-07": 13,
-"2026-08": 20,
-"2026-09": 7,
-"2026-10": 44,
-"2026-11": 0
-}
-},
-"searxng/searxng": {
-"name": "SearXNG",
-"website_url": "https://docs.searxng.org/",
-"description": "Internet metasearch engine which aggregates results from various search services and databases (fork of Searx).",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Python",
-"Docker"
-],
-"tags": [
-"Search Engines"
-],
-"source_code_url": "https://github.com/searxng/searxng/",
-"depends_3rdparty": true,
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/searxng.webp",
-"stargazers_count": 39098,
-"updated_at": "2026-11-01",
-"archived": false,
-"commit_history": {
-"2025-12": 55,
-"2026-01": 47,
-"2026-02": 44,
-"2026-03": 74,
-"2026-04": 44,
-"2026-05": 82,
-"2026-06": 125,
-"2026-07": 79,
-"2026-08": 33,
-"2026-09": 123,
-"2026-10": 51,
-"2026-11": 3
-}
-},
-"blakeblackshear/frigate": {
-"name": "Frigate",
-"website_url": "https://frigate.video/",
-"description": "Monitor your security cameras with locally processed AI.",
-"licenses": [
-"MIT"
-],
-"platforms": [
-"Docker",
-"Python",
-"Nodejs"
-],
-"tags": [
-"Video Surveillance"
-],
-"source_code_url": "https://github.com/blakeblackshear/frigate",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/frigate.webp",
-"stargazers_count": 37129,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v0.18.2",
-"published_at": "2026-10-15"
-},
-"commit_history": {
-"2025-12": 109,
-"2026-01": 57,
-"2026-02": 140,
-"2026-03": 222,
-"2026-04": 139,
-"2026-05": 97,
-"2026-06": 74,
-"2026-07": 92,
-"2026-08": 86,
-"2026-09": 290,
-"2026-10": 141,
 "2026-11": 7
-}
-},
-"nextcloud/server": {
-"name": "Nextcloud",
-"website_url": "https://nextcloud.com/",
-"description": "Access and share your files, calendars, contacts, mail and more from any device, on your terms.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"PHP",
-"deb"
-],
-"tags": [
-"File Transfer & Synchronization",
-"Groupware"
-],
-"source_code_url": "https://github.com/nextcloud/server",
-"related_software_url": "https://apps.nextcloud.com",
-"demo_url": "https://try.nextcloud.com/",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/nextcloud.webp",
-"stargazers_count": 37389,
-"updated_at": "2026-11-02",
-"archived": false,
-"current_release": {
-"tag": "v35.0.2",
-"published_at": "2026-10-15"
-},
-"commit_history": {
-"2025-12": 418,
-"2026-01": 723,
-"2026-02": 576,
-"2026-03": 448,
-"2026-04": 610,
-"2026-05": 638,
-"2026-06": 802,
-"2026-07": 712,
-"2026-08": 873,
-"2026-09": 917,
-"2026-10": 770,
-"2026-11": 4
-}
-},
-"photoprism/photoprism": {
-"name": "PhotoPrism",
-"website_url": "https://photoprism.org",
-"description": "Personal photo management powered by Go and Google TensorFlow. Browse, organize, and share your personal photo collection, using the latest technologies to automatically tag and find pictures.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Go",
-"Docker"
-],
-"tags": [
-"Photo Galleries"
-],
-"source_code_url": "https://github.com/photoprism/photoprism",
-"demo_url": "https://demo.photoprism.app/library/browse",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/photoprism.webp",
-"stargazers_count": 40386,
-"updated_at": "2026-10-29",
-"archived": false,
-"current_release": {
-"tag": "261029-963b58c50",
-"published_at": "2026-10-29"
-},
-"commit_history": {
-"2025-12": 45,
-"2026-01": 32,
-"2026-02": 150,
-"2026-03": 110,
-"2026-04": 103,
-"2026-05": 403,
-"2026-06": 287,
-"2026-07": 213,
-"2026-08": 437,
-"2026-09": 672,
-"2026-10": 836,
-"2026-11": 0
-}
-},
-"simplex-chat/simplex-chat": {
-"name": "SimpleX Chat",
-"website_url": "https://github.com/simplex-chat/simplex-chat",
-"description": "Most private and secure chat and applications platform - now with double ratchet E2E encryption.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Haskell"
-],
-"tags": [
-"Communication - Custom Communication Systems"
-],
-"source_code_url": "https://github.com/simplex-chat/simplex-chat",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/simplex-chat.webp",
-"stargazers_count": 19624,
-"updated_at": "2026-10-21",
-"archived": false,
-"current_release": {
-"tag": "v7.1.0-beta.8",
-"published_at": "2026-10-31"
-},
-"commit_history": {
-"2025-12": 14,
-"2026-01": 6,
-"2026-02": 16,
-"2026-03": 73,
-"2026-04": 156,
-"2026-05": 81,
-"2026-06": 104,
-"2026-07": 113,
-"2026-08": 25,
-"2026-09": 14,
-"2026-10": 7,
-"2026-11": 0
-}
-},
-"syncthing/syncthing": {
-"name": "Syncthing",
-"website_url": "https://syncthing.net/",
-"description": "Peer-to-peer file synchronisation tool.",
-"licenses": [
-"MPL-2.0"
-],
-"platforms": [
-"Go",
-"Docker",
-"deb"
-],
-"tags": [
-"File Transfer & Synchronization"
-],
-"source_code_url": "https://github.com/syncthing/syncthing",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/syncthing.webp",
-"stargazers_count": 89995,
-"updated_at": "2026-10-27",
-"archived": false,
-"current_release": {
-"tag": "v2.1.7",
-"published_at": "2026-10-21"
-},
-"commit_history": {
-"2025-12": 15,
-"2026-01": 10,
-"2026-02": 14,
-"2026-03": 14,
-"2026-04": 38,
-"2026-05": 36,
-"2026-06": 24,
-"2026-07": 30,
-"2026-08": 17,
-"2026-09": 16,
-"2026-10": 20,
-"2026-11": 0
-}
-},
-"lobehub/lobehub": {
-"name": "LobeHub",
-"website_url": "https://www.lobehub.com",
-"source_code_url": "https://github.com/lobehub/lobehub",
-"description": "Modern design AI chat framework supporting multiple AI providers, one click install MCP Marketplace and Artifacts / Thinking.",
-"licenses": [
-"\u2298 Proprietary"
-],
-"platforms": [
-"Nodejs",
-"Docker"
-],
-"tags": [
-"Generative Artificial Intelligence (GenAI)"
-],
-"related_software_url": "https://lobehub.com/mcp",
-"icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/lobehub.webp",
-"stargazers_count": 83681,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v2.3.1-canary.2",
-"published_at": "2026-11-01"
-},
-"commit_history": {
-"2025-12": 546,
-"2026-01": 940,
-"2026-02": 378,
-"2026-03": 438,
-"2026-04": 583,
-"2026-05": 733,
-"2026-06": 741,
-"2026-07": 889,
-"2026-08": 731,
-"2026-09": 928,
-"2026-10": 1320,
-"2026-11": 51
-}
-},
-"lemmynet/lemmy": {
-"name": "Lemmy",
-"website_url": "https://join-lemmy.org/",
-"description": "Link aggregator for the fediverse (alternative to Reddit).",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Docker",
-"Rust"
-],
-"tags": [
-"Communication - Social Networks and Forums"
-],
-"source_code_url": "https://github.com/LemmyNet/lemmy",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/lemmy.webp",
-"stargazers_count": 14659,
-"updated_at": "2026-10-30",
-"archived": false,
-"current_release": {
-"tag": "1.0.0-beta.3",
-"published_at": "2026-10-29"
-},
-"commit_history": {
-"2025-12": 59,
-"2026-01": 21,
-"2026-02": 26,
-"2026-03": 32,
-"2026-04": 27,
-"2026-05": 37,
-"2026-06": 24,
-"2026-07": 14,
-"2026-08": 11,
-"2026-09": 17,
-"2026-10": 34,
-"2026-11": 0
 }
 },
 "dani-garcia/vaultwarden": {
@@ -1236,8 +1648,8 @@
 ],
 "source_code_url": "https://github.com/dani-garcia/vaultwarden",
 "icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/vaultwarden.webp",
-"stargazers_count": 70068,
-"updated_at": "2026-11-01",
+"stargazers_count": 70449,
+"updated_at": "2026-11-04",
 "archived": false,
 "current_release": {
 "tag": "1.37.5",
@@ -1255,81 +1667,121 @@
 "2026-08": 12,
 "2026-09": 25,
 "2026-10": 44,
-"2026-11": 4
+"2026-11": 8
 }
 },
-"wekan/wekan": {
-"name": "Wekan",
-"website_url": "https://wekan.github.io/",
-"description": "Trello-like kanban.",
-"licenses": [
-"MIT"
-],
-"platforms": [
-"Nodejs"
-],
-"tags": [
-"Task Management & To-do Lists"
-],
-"source_code_url": "https://github.com/wekan/wekan",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/wekan.webp",
-"stargazers_count": 21148,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v12.77",
-"published_at": "2026-10-31"
-},
-"commit_history": {
-"2025-12": 97,
-"2026-01": 250,
-"2026-02": 128,
-"2026-03": 313,
-"2026-04": 371,
-"2026-05": 371,
-"2026-06": 634,
-"2026-07": 1611,
-"2026-08": 4647,
-"2026-09": 9247,
-"2026-10": 7288,
-"2026-11": 31
-}
-},
-"chocobozzz/peertube": {
-"name": "PeerTube",
-"website_url": "https://joinpeertube.org/en/",
-"description": "Decentralized video streaming platform using P2P (BitTorrent) directly in the web browser.",
+"immich-app/immich": {
+"name": "Immich",
+"website_url": "https://immich.app/",
+"description": "Photo and video backup solution directly from your mobile phone (alternative to Google Photos).",
 "licenses": [
 "AGPL-3.0"
 ],
 "platforms": [
-"Nodejs"
+"Docker"
 ],
 "tags": [
-"Media Streaming - Video Streaming"
+"Photo Galleries"
 ],
-"source_code_url": "https://github.com/Chocobozzz/PeerTube",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/peertube.webp",
-"stargazers_count": 15381,
-"updated_at": "2026-10-30",
+"source_code_url": "https://github.com/immich-app/immich",
+"demo_url": "https://github.com/immich-app/immich#demo",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/immich.webp",
+"stargazers_count": 118568,
+"updated_at": "2026-11-07",
 "archived": false,
 "current_release": {
-"tag": "v8.3.2",
-"published_at": "2026-10-26"
+"tag": "v3.4.0-rc.3",
+"published_at": "2026-11-06"
 },
 "commit_history": {
-"2025-12": 200,
-"2026-01": 106,
-"2026-02": 162,
-"2026-03": 177,
-"2026-04": 206,
-"2026-05": 175,
-"2026-06": 123,
-"2026-07": 200,
-"2026-08": 234,
-"2026-09": 74,
-"2026-10": 201,
-"2026-11": 0
+"2025-12": 131,
+"2026-01": 265,
+"2026-02": 300,
+"2026-03": 258,
+"2026-04": 236,
+"2026-05": 215,
+"2026-06": 270,
+"2026-07": 262,
+"2026-08": 252,
+"2026-09": 217,
+"2026-10": 287,
+"2026-11": 84
+}
+},
+"friendica/friendica": {
+"name": "Friendica",
+"website_url": "https://friendi.ca/",
+"description": "Social Communication Server.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"PHP"
+],
+"tags": [
+"Communication - Social Networks and Forums"
+],
+"source_code_url": "https://github.com/friendica/friendica",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/friendica.webp",
+"stargazers_count": 1700,
+"updated_at": "2026-11-06",
+"archived": false,
+"current_release": {
+"tag": "2026.05-1",
+"published_at": "2026-05-21"
+},
+"commit_history": {
+"2026-01": 143,
+"2026-02": 199,
+"2026-03": 120,
+"2026-04": 163,
+"2026-05": 373,
+"2026-06": 359,
+"2026-07": 234,
+"2026-08": 535,
+"2026-09": 224,
+"2026-10": 166,
+"2026-11": 20
+}
+},
+"jitsi/jitsi-meet": {
+"name": "Jitsi Meet",
+"website_url": "https://jitsi.org/Projects/JitsiMeet",
+"description": "WebRTC application that uses Jitsi Videobridge to provide high quality, scalable video conferences.",
+"licenses": [
+"Apache-2.0"
+],
+"platforms": [
+"Nodejs",
+"Docker",
+"deb"
+],
+"tags": [
+"Communication - Video Conferencing"
+],
+"source_code_url": "https://github.com/jitsi/jitsi-meet",
+"demo_url": "https://meet.jit.si",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/jitsi-meet.webp",
+"stargazers_count": 30211,
+"updated_at": "2026-11-07",
+"archived": false,
+"current_release": {
+"tag": "stable/jitsi-meet_11248",
+"published_at": "2026-09-14"
+},
+"commit_history": {
+"2025-12": 29,
+"2026-01": 49,
+"2026-02": 75,
+"2026-03": 102,
+"2026-04": 66,
+"2026-05": 55,
+"2026-06": 87,
+"2026-07": 85,
+"2026-08": 62,
+"2026-09": 132,
+"2026-10": 151,
+"2026-11": 64
 }
 },
 "languagetool-org/languagetool": {
@@ -1349,8 +1801,8 @@
 ],
 "related_software_url": "https://languagetool.org/insights/post/product-windows-app/",
 "icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/languagetool.webp",
-"stargazers_count": 15225,
-"updated_at": "2026-11-01",
+"stargazers_count": 15239,
+"updated_at": "2026-11-08",
 "archived": false,
 "commit_history": {
 "2025-12": 174,
@@ -1363,85 +1815,198 @@
 "2026-07": 146,
 "2026-08": 211,
 "2026-09": 140,
-"2026-10": 138,
-"2026-11": 10
+"2026-10": 140,
+"2026-11": 45
 }
 },
-"n8n-io/n8n": {
-"name": "n8n",
-"website_url": "https://n8n.io/",
-"description": "Free node based Workflow Automation Tool. Easily automate tasks across different services.",
+"open-webui/open-webui": {
+"name": "Open-WebUI",
+"website_url": "https://openwebui.com",
+"source_code_url": "https://github.com/open-webui/open-webui",
+"description": "User-friendly AI Interface, supports Ollama, OpenAI API.",
 "licenses": [
-"Apache-2.0",
-"Commons-Clause"
+"BSD-3-Clause"
+],
+"platforms": [
+"Docker",
+"Python"
+],
+"tags": [
+"Generative Artificial Intelligence (GenAI)"
+],
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/open-webui.webp",
+"stargazers_count": 158149,
+"updated_at": "2026-11-08",
+"archived": false,
+"current_release": {
+"tag": "v0.13.3",
+"published_at": "2026-11-08"
+},
+"commit_history": {
+"2025-12": 322,
+"2026-01": 280,
+"2026-02": 505,
+"2026-03": 503,
+"2026-04": 387,
+"2026-05": 309,
+"2026-06": 439,
+"2026-07": 675,
+"2026-08": 552,
+"2026-09": 508,
+"2026-10": 1252,
+"2026-11": 448
+}
+},
+"opf/openproject": {
+"name": "OpenProject",
+"website_url": "https://www.openproject.org",
+"description": "Manage your projects, tasks and goals. Collaborate via work packages and link them to your pull requests on Github.",
+"licenses": [
+"GPL-3.0"
+],
+"platforms": [
+"Ruby",
+"deb",
+"Docker"
+],
+"tags": [
+"Software Development - Project Management"
+],
+"source_code_url": "https://github.com/opf/openproject",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/openproject.webp",
+"stargazers_count": 17144,
+"updated_at": "2026-11-09",
+"archived": false,
+"current_release": {
+"tag": "v17.9.6",
+"published_at": "2026-10-30"
+},
+"commit_history": {
+"2025-12": 761,
+"2026-01": 928,
+"2026-02": 1334,
+"2026-03": 1699,
+"2026-04": 1345,
+"2026-05": 1453,
+"2026-06": 1709,
+"2026-07": 1724,
+"2026-08": 1413,
+"2026-09": 2747,
+"2026-10": 2513,
+"2026-11": 477
+}
+},
+"wekan/wekan": {
+"name": "Wekan",
+"website_url": "https://wekan.github.io/",
+"description": "Trello-like kanban.",
+"licenses": [
+"MIT"
 ],
 "platforms": [
 "Nodejs"
 ],
 "tags": [
-"Automation"
+"Task Management & To-do Lists"
 ],
-"source_code_url": "https://github.com/n8n-io/n8n",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/n8n.webp",
-"stargazers_count": 209308,
-"updated_at": "2026-11-02",
+"source_code_url": "https://github.com/wekan/wekan",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/wekan.webp",
+"stargazers_count": 21159,
+"updated_at": "2026-11-09",
 "archived": false,
 "current_release": {
-"tag": "stable",
-"published_at": "2026-10-30"
+"tag": "v13.02",
+"published_at": "2026-11-09"
 },
 "commit_history": {
-"2025-12": 497,
-"2026-01": 531,
-"2026-02": 527,
-"2026-03": 542,
-"2026-04": 710,
-"2026-05": 833,
-"2026-06": 1177,
-"2026-07": 1150,
-"2026-08": 1116,
-"2026-09": 1437,
-"2026-10": 1679,
-"2026-11": 3
+"2025-12": 97,
+"2026-01": 250,
+"2026-02": 128,
+"2026-03": 313,
+"2026-04": 371,
+"2026-05": 371,
+"2026-06": 634,
+"2026-07": 1611,
+"2026-08": 4647,
+"2026-09": 9247,
+"2026-10": 7288,
+"2026-11": 306
 }
 },
-"usememos/memos": {
-"name": "Memos",
-"website_url": "https://usememos.com/",
-"description": "Knowledge base that works with a SQLite db file.",
+"simplex-chat/simplex-chat": {
+"name": "SimpleX Chat",
+"website_url": "https://github.com/simplex-chat/simplex-chat",
+"description": "Most private and secure chat and applications platform - now with double ratchet E2E encryption.",
+"licenses": [
+"AGPL-3.0"
+],
+"platforms": [
+"Haskell"
+],
+"tags": [
+"Communication - Custom Communication Systems"
+],
+"source_code_url": "https://github.com/simplex-chat/simplex-chat",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/simplex-chat.webp",
+"stargazers_count": 19666,
+"updated_at": "2026-10-21",
+"archived": false,
+"current_release": {
+"tag": "v7.1.2",
+"published_at": "2026-11-07"
+},
+"commit_history": {
+"2025-12": 14,
+"2026-01": 6,
+"2026-02": 16,
+"2026-03": 73,
+"2026-04": 156,
+"2026-05": 81,
+"2026-06": 104,
+"2026-07": 113,
+"2026-08": 25,
+"2026-09": 14,
+"2026-10": 7,
+"2026-11": 0
+}
+},
+"rocketchat/rocket.chat": {
+"name": "Rocket.Chat",
+"website_url": "https://rocket.chat/",
+"description": "Communications platform that puts data protection first (alternative to Gitter.im and Slack).",
 "licenses": [
 "MIT"
 ],
 "platforms": [
+"Nodejs",
 "Docker",
-"Go"
+"K8S"
 ],
 "tags": [
-"Note-taking & Editors"
+"Communication - Custom Communication Systems"
 ],
-"source_code_url": "https://github.com/usememos/memos",
-"demo_url": "https://demo.usememos.com/explore",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/memos.webp",
-"stargazers_count": 64223,
-"updated_at": "2026-11-01",
+"source_code_url": "https://github.com/RocketChat/Rocket.Chat",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/rocket-chat.webp",
+"stargazers_count": 46377,
+"updated_at": "2026-11-06",
 "archived": false,
 "current_release": {
-"tag": "26.11.0",
-"published_at": "2026-11-01"
+"tag": "9.0.0-rc.8",
+"published_at": "2026-11-07"
 },
 "commit_history": {
-"2025-12": 100,
-"2026-01": 113,
-"2026-02": 67,
-"2026-03": 106,
-"2026-04": 88,
-"2026-05": 47,
-"2026-06": 51,
-"2026-07": 77,
-"2026-08": 77,
-"2026-09": 107,
-"2026-10": 88,
-"2026-11": 6
+"2025-12": 303,
+"2026-01": 143,
+"2026-02": 203,
+"2026-03": 172,
+"2026-04": 167,
+"2026-05": 174,
+"2026-06": 199,
+"2026-07": 274,
+"2026-08": 157,
+"2026-09": 195,
+"2026-10": 418,
+"2026-11": 72
 }
 },
 "luanti-org/luanti": {
@@ -1463,8 +2028,8 @@
 ],
 "source_code_url": "https://github.com/luanti-org/luanti",
 "archived": false,
-"stargazers_count": 13805,
-"updated_at": "2026-10-30",
+"stargazers_count": 13837,
+"updated_at": "2026-11-07",
 "current_release": {
 "tag": "5.18.0",
 "published_at": "2026-10-29"
@@ -1481,272 +2046,54 @@
 "2026-08": 147,
 "2026-09": 52,
 "2026-10": 119,
-"2026-11": 0
+"2026-11": 22
 }
 },
-"zulip/zulip": {
-"name": "Zulip",
-"website_url": "https://zulip.org",
-"description": "Powerful group chat application.",
-"licenses": [
-"Apache-2.0"
-],
-"platforms": [
-"Python"
-],
-"tags": [
-"Communication - Custom Communication Systems"
-],
-"source_code_url": "https://github.com/zulip/zulip",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/zulip.webp",
-"stargazers_count": 26154,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "13.0-rc1",
-"published_at": "2026-10-30"
-},
-"commit_history": {
-"2025-12": 530,
-"2026-01": 576,
-"2026-02": 618,
-"2026-03": 619,
-"2026-04": 677,
-"2026-05": 238,
-"2026-06": 264,
-"2026-07": 244,
-"2026-08": 209,
-"2026-09": 280,
-"2026-10": 357,
-"2026-11": 2
-}
-},
-"go-vikunja/vikunja": {
-"name": "Vikunja",
-"website_url": "https://vikunja.io/",
-"source_code_url": "https://github.com/go-vikunja/vikunja",
-"description": "To-do app to organize your life.",
-"licenses": [
-"AGPL-3.0",
-"GPL-3.0"
-],
-"platforms": [
-"Go"
-],
-"tags": [
-"Task Management & To-do Lists"
-],
-"demo_url": "https://try.vikunja.io/login",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/vikunja.webp",
-"stargazers_count": 5931,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v2.7.1",
-"published_at": "2026-10-20"
-},
-"commit_history": {
-"2026-04": 451,
-"2026-05": 207,
-"2026-06": 419,
-"2026-07": 358,
-"2026-08": 455,
-"2026-09": 727,
-"2026-10": 484,
-"2026-11": 1
-}
-},
-"lichess-org/lila": {
-"name": "Lila",
-"website_url": "https://lichess.org/",
-"description": "Ad-less chess server powering lichess.org, with official iOS and Android client apps.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Scala"
-],
-"tags": [
-"Games"
-],
-"source_code_url": "https://github.com/lichess-org/lila",
-"stargazers_count": 18937,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v1.1.0",
-"published_at": "2017-08-31"
-},
-"commit_history": {
-"2025-12": 706,
-"2026-01": 869,
-"2026-02": 1145,
-"2026-03": 713,
-"2026-04": 530,
-"2026-05": 476,
-"2026-06": 629,
-"2026-07": 989,
-"2026-08": 942,
-"2026-09": 1159,
-"2026-10": 1191,
-"2026-11": 36
-}
-},
-"pixelfed/pixelfed": {
-"name": "PixelFed",
-"website_url": "https://pixelfed.social",
-"description": "Ethical photo sharing platform, powered by ActivityPub federation (alternative to Instagram).",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"PHP"
-],
-"tags": [
-"Communication - Social Networks and Forums"
-],
-"source_code_url": "https://github.com/pixelfed/pixelfed",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/pixelfed.webp",
-"stargazers_count": 7133,
-"updated_at": "2026-11-02",
-"archived": false,
-"current_release": {
-"tag": "v0.15.2",
-"published_at": "2026-10-21"
-},
-"commit_history": {
-"2025-12": 23,
-"2026-01": 49,
-"2026-02": 83,
-"2026-03": 78,
-"2026-04": 5,
-"2026-05": 14,
-"2026-06": 25,
-"2026-07": 2,
-"2026-08": 645,
-"2026-09": 2432,
-"2026-10": 650,
-"2026-11": 3
-}
-},
-"ente/ente": {
-"name": "Ente",
-"website_url": "https://ente.com/",
-"source_code_url": "https://github.com/ente/ente",
-"description": "End-to-end encrypted photo-sharing platform (alternative to Google Photos, Apple Photos).",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Docker",
-"Nodejs",
-"Go"
-],
-"tags": [
-"Photo Galleries"
-],
-"stargazers_count": 29817,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "photos-v1.3.67",
-"published_at": "2026-10-30"
-},
-"commit_history": {
-"2025-12": 1240,
-"2026-01": 1387,
-"2026-02": 1140,
-"2026-03": 1587,
-"2026-04": 1019,
-"2026-05": 1511,
-"2026-06": 1464,
-"2026-07": 1921,
-"2026-08": 1964,
-"2026-09": 2155,
-"2026-10": 2223,
-"2026-11": 3
-}
-},
-"firefly-iii/firefly-iii": {
-"name": "Firefly III",
-"website_url": "https://firefly-iii.org/",
-"description": "Modern financial manager. It helps you to keep track of your money and make budget forecasts. It supports credit cards, has an advanced rule engine and can import data from many banks.",
+"nextcloud/server": {
+"name": "Nextcloud",
+"website_url": "https://nextcloud.com/",
+"description": "Access and share your files, calendars, contacts, mail and more from any device, on your terms.",
 "licenses": [
 "AGPL-3.0"
 ],
 "platforms": [
 "PHP",
-"Docker"
+"deb"
 ],
 "tags": [
-"Money, Budgeting & Management"
+"File Transfer & Synchronization",
+"Groupware"
 ],
-"source_code_url": "https://github.com/firefly-iii/firefly-iii",
-"demo_url": "https://demo.firefly-iii.org/",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/firefly-iii.webp",
-"stargazers_count": 25055,
-"updated_at": "2026-10-26",
+"source_code_url": "https://github.com/nextcloud/server",
+"related_software_url": "https://apps.nextcloud.com",
+"demo_url": "https://try.nextcloud.com/",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/nextcloud.webp",
+"stargazers_count": 37451,
+"updated_at": "2026-11-09",
 "archived": false,
 "current_release": {
-"tag": "develop-20261101.3",
-"published_at": "2026-11-01"
+"tag": "v35.0.3rc1",
+"published_at": "2026-11-05"
 },
 "commit_history": {
-"2025-12": 141,
-"2026-01": 291,
-"2026-02": 320,
-"2026-03": 312,
-"2026-04": 165,
-"2026-05": 119,
-"2026-06": 102,
-"2026-07": 268,
-"2026-08": 237,
-"2026-09": 498,
-"2026-10": 200,
-"2026-11": 0
+"2025-12": 418,
+"2026-01": 723,
+"2026-02": 576,
+"2026-03": 448,
+"2026-04": 610,
+"2026-05": 638,
+"2026-06": 802,
+"2026-07": 712,
+"2026-08": 873,
+"2026-09": 917,
+"2026-10": 806,
+"2026-11": 277
 }
 },
-"element-hq/element-web": {
-"name": "Element",
-"website_url": "https://element.io",
-"description": "Fully-featured Matrix client for Web, iOS & Android.",
-"licenses": [
-"Apache-2.0"
-],
-"platforms": [
-"Nodejs"
-],
-"tags": [
-"Communication - Custom Communication Systems"
-],
-"source_code_url": "https://github.com/element-hq/element-web",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/element.webp",
-"stargazers_count": 13633,
-"updated_at": "2026-10-30",
-"archived": false,
-"current_release": {
-"tag": "v1.12.33",
-"published_at": "2026-10-27"
-},
-"commit_history": {
-"2025-12": 151,
-"2026-01": 236,
-"2026-02": 312,
-"2026-03": 294,
-"2026-04": 286,
-"2026-05": 224,
-"2026-06": 288,
-"2026-07": 270,
-"2026-08": 225,
-"2026-09": 257,
-"2026-10": 214,
-"2026-11": 0
-}
-},
-"laurent22/joplin": {
-"name": "Joplin",
-"website_url": "https://joplinapp.org/",
-"description": "Note taking application with markdown editor and encryption support for mobile and desktop platforms. Runs client-side and syncs through your own Nextcloud instance or similar (alternative to Evernote).",
+"tryghost/ghost": {
+"name": "Ghost",
+"website_url": "https://ghost.org/",
+"description": "Just a blogging platform.",
 "licenses": [
 "MIT"
 ],
@@ -1754,69 +2101,30 @@
 "Nodejs"
 ],
 "tags": [
-"Note-taking & Editors"
+"Blogging Platforms"
 ],
-"source_code_url": "https://github.com/laurent22/joplin",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/joplin.webp",
-"stargazers_count": 56980,
-"updated_at": "2026-11-01",
+"source_code_url": "https://github.com/TryGhost/Ghost",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/ghost.webp",
+"stargazers_count": 55711,
+"updated_at": "2026-11-08",
 "archived": false,
 "current_release": {
-"tag": "v3.7.22",
-"published_at": "2026-10-28"
+"tag": "v6.75.0",
+"published_at": "2026-11-04"
 },
 "commit_history": {
-"2025-12": 126,
-"2026-01": 163,
-"2026-02": 193,
-"2026-03": 212,
-"2026-04": 155,
-"2026-05": 253,
-"2026-06": 195,
-"2026-07": 197,
-"2026-08": 162,
-"2026-09": 187,
-"2026-10": 135,
-"2026-11": 6
-}
-},
-"navidrome/navidrome": {
-"name": "Navidrome Music Server",
-"website_url": "https://www.navidrome.org",
-"description": "Modern Music Server and Streamer, compatible with Subsonic/Airsonic.",
-"licenses": [
-"GPL-3.0"
-],
-"platforms": [
-"Docker",
-"Go"
-],
-"tags": [
-"Media Streaming - Audio Streaming"
-],
-"source_code_url": "https://github.com/navidrome/navidrome",
-"demo_url": "https://www.navidrome.org/demo",
-"related_software_url": "https://www.navidrome.org/docs/overview/#apps",
-"stargazers_count": 24478,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v0.64.2",
-"published_at": "2026-09-24"
-},
-"commit_history": {
-"2025-12": 44,
-"2026-01": 54,
-"2026-02": 81,
-"2026-03": 114,
-"2026-04": 71,
-"2026-05": 43,
-"2026-06": 62,
-"2026-07": 78,
-"2026-08": 89,
-"2026-09": 108,
-"2026-10": 21,
-"2026-11": 1
+"2025-12": 172,
+"2026-01": 248,
+"2026-02": 413,
+"2026-03": 323,
+"2026-04": 503,
+"2026-05": 599,
+"2026-06": 774,
+"2026-07": 708,
+"2026-08": 642,
+"2026-09": 631,
+"2026-10": 1110,
+"2026-11": 174
 }
 },
 "xbmc/xbmc": {
@@ -1835,8 +2143,8 @@
 ],
 "source_code_url": "https://github.com/xbmc/xbmc",
 "icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/kodi.webp",
-"stargazers_count": 21414,
-"updated_at": "2026-11-01",
+"stargazers_count": 21452,
+"updated_at": "2026-11-08",
 "archived": false,
 "current_release": {
 "tag": "22.0rc1-Piers",
@@ -1853,239 +2161,201 @@
 "2026-07": 336,
 "2026-08": 630,
 "2026-09": 652,
-"2026-10": 951,
-"2026-11": 7
+"2026-10": 991,
+"2026-11": 208
 }
 },
-"makeplane/plane": {
-"name": "Plane",
-"website_url": "https://plane.so",
-"description": "Track issues, epics, and product roadmaps in the simplest way possible (alternative to JIRA, Linear and Height).",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Docker"
-],
-"tags": [
-"Software Development - Project Management"
-],
-"source_code_url": "https://github.com/makeplane/plane",
-"demo_url": "https://app.plane.so",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/plane.webp",
-"stargazers_count": 61830,
-"updated_at": "2026-10-29",
-"archived": false,
-"current_release": {
-"tag": "v1.4.3",
-"published_at": "2026-10-28"
-},
-"commit_history": {
-"2025-12": 207,
-"2026-01": 22,
-"2026-02": 54,
-"2026-03": 65,
-"2026-04": 27,
-"2026-05": 25,
-"2026-06": 35,
-"2026-07": 37,
-"2026-08": 42,
-"2026-09": 72,
-"2026-10": 91,
-"2026-11": 0
-}
-},
-"ollama/ollama": {
-"name": "Ollama",
-"website_url": "https://ollama.com/",
-"source_code_url": "https://github.com/ollama/ollama",
-"description": "Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, and other large language models.",
+"usememos/memos": {
+"name": "Memos",
+"website_url": "https://usememos.com/",
+"description": "Knowledge base that works with a SQLite db file.",
 "licenses": [
 "MIT"
 ],
 "platforms": [
 "Docker",
-"Python"
+"Go"
 ],
 "tags": [
-"Generative Artificial Intelligence (GenAI)"
+"Note-taking & Editors"
 ],
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/ollama.webp",
-"stargazers_count": 185606,
-"updated_at": "2026-10-31",
+"source_code_url": "https://github.com/usememos/memos",
+"demo_url": "https://demo.usememos.com/explore",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/memos.webp",
+"stargazers_count": 64351,
+"updated_at": "2026-11-09",
 "archived": false,
 "current_release": {
-"tag": "v0.40.13",
-"published_at": "2026-10-28"
+"tag": "26.11.0",
+"published_at": "2026-11-01"
 },
 "commit_history": {
-"2025-12": 78,
-"2026-01": 105,
-"2026-02": 110,
-"2026-03": 123,
-"2026-04": 112,
-"2026-05": 43,
-"2026-06": 98,
-"2026-07": 94,
-"2026-08": 104,
-"2026-09": 110,
-"2026-10": 153,
-"2026-11": 0
+"2025-12": 100,
+"2026-01": 113,
+"2026-02": 67,
+"2026-03": 106,
+"2026-04": 88,
+"2026-05": 47,
+"2026-06": 51,
+"2026-07": 77,
+"2026-08": 77,
+"2026-09": 107,
+"2026-10": 88,
+"2026-11": 11
 }
 },
-"saleor/saleor": {
-"name": "Saleor",
-"website_url": "https://saleor.io",
-"description": "GraphQL native, API-only platform for scalable composable e-commerce storefront.",
+"photoprism/photoprism": {
+"name": "PhotoPrism",
+"website_url": "https://photoprism.org",
+"description": "Personal photo management powered by Go and Google TensorFlow. Browse, organize, and share your personal photo collection, using the latest technologies to automatically tag and find pictures.",
 "licenses": [
-"BSD-3-Clause"
+"AGPL-3.0"
 ],
 "platforms": [
-"Docker",
-"Python"
+"Go",
+"Docker"
 ],
 "tags": [
-"E-commerce"
+"Photo Galleries"
 ],
-"source_code_url": "https://github.com/saleor/saleor",
-"demo_url": "https://demo.saleor.io/",
-"stargazers_count": 23496,
+"source_code_url": "https://github.com/photoprism/photoprism",
+"demo_url": "https://demo.photoprism.app/library/browse",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/photoprism.webp",
+"stargazers_count": 40425,
 "updated_at": "2026-10-29",
 "archived": false,
 "current_release": {
-"tag": "3.23.45",
-"published_at": "2026-10-28"
+"tag": "261029-963b58c50",
+"published_at": "2026-10-29"
 },
 "commit_history": {
-"2025-12": 27,
-"2026-01": 24,
-"2026-02": 62,
-"2026-03": 55,
-"2026-04": 37,
-"2026-05": 24,
-"2026-06": 57,
-"2026-07": 58,
-"2026-08": 47,
-"2026-09": 34,
-"2026-10": 35,
+"2025-12": 45,
+"2026-01": 32,
+"2026-02": 150,
+"2026-03": 110,
+"2026-04": 103,
+"2026-05": 403,
+"2026-06": 287,
+"2026-07": 213,
+"2026-08": 437,
+"2026-09": 672,
+"2026-10": 836,
 "2026-11": 0
 }
 },
-"mattermost/mattermost": {
-"name": "Mattermost",
-"website_url": "https://mattermost.com/",
-"description": "Platform for secure collaboration across the entire software development lifecycle, can be integrated with Gitlab (alternative to Slack).",
+"bookwyrm-social/bookwyrm": {
+"name": "Bookwyrm",
+"website_url": "https://joinbookwyrm.com/",
+"description": "Social network for tracking your reading, talking about books, writing reviews, and discovering what to read next.",
 "licenses": [
 "\u2298 Proprietary"
 ],
 "platforms": [
-"Go",
-"Docker",
-"K8S"
+"Python"
 ],
 "tags": [
-"Communication - Custom Communication Systems"
+"Document Management - E-books"
 ],
-"source_code_url": "https://github.com/mattermost/mattermost",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/mattermost.webp",
-"stargazers_count": 39499,
-"updated_at": "2026-11-02",
+"source_code_url": "https://github.com/bookwyrm-social/bookwyrm",
+"icon_url": "https://cdn.jsdelivr.net/gh/selfhst/icons/webp/bookwyrm.webp",
+"stargazers_count": 2809,
+"updated_at": "2026-11-06",
 "archived": false,
 "current_release": {
-"tag": "v11.7.15-rc1",
-"published_at": "2026-10-28"
+"tag": "v0.9.4",
+"published_at": "2026-10-29"
 },
 "commit_history": {
-"2025-12": 87,
-"2026-01": 120,
-"2026-02": 133,
-"2026-03": 165,
-"2026-04": 199,
-"2026-05": 208,
-"2026-06": 190,
-"2026-07": 218,
-"2026-08": 170,
-"2026-09": 282,
-"2026-10": 296,
-"2026-11": 3
+"2025-12": 44,
+"2026-01": 125,
+"2026-02": 222,
+"2026-03": 43,
+"2026-04": 40,
+"2026-05": 154,
+"2026-06": 221,
+"2026-07": 175,
+"2026-08": 105,
+"2026-09": 140,
+"2026-10": 120,
+"2026-11": 15
 }
 },
-"stirling-tools/stirling-pdf": {
-"name": "Stirling-PDF",
-"website_url": "https://github.com/Stirling-Tools/Stirling-PDF",
-"description": "Local hosted web application that allows you to perform various operations on PDF files, such as merging, splitting, file conversions and OCR.",
+"pi-hole/pi-hole": {
+"name": "Pi-hole",
+"website_url": "https://pi-hole.net/",
+"description": "Blackhole for Internet advertisements with a GUI for management and monitoring.",
+"licenses": [
+"EUPL-1.2"
+],
+"platforms": [
+"Shell",
+"PHP",
+"Docker"
+],
+"tags": [
+"DNS"
+],
+"source_code_url": "https://github.com/pi-hole/pi-hole",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/pi-hole.webp",
+"stargazers_count": 61720,
+"updated_at": "2026-11-06",
+"archived": false,
+"current_release": {
+"tag": "v6.5",
+"published_at": "2026-10-17"
+},
+"commit_history": {
+"2025-12": 11,
+"2026-01": 14,
+"2026-02": 22,
+"2026-03": 33,
+"2026-04": 49,
+"2026-05": 33,
+"2026-06": 16,
+"2026-07": 13,
+"2026-08": 20,
+"2026-09": 7,
+"2026-10": 44,
+"2026-11": 2
+}
+},
+"home-assistant/core": {
+"name": "Home Assistant",
+"website_url": "https://home-assistant.io/",
+"description": "Home automation platform.",
 "licenses": [
 "Apache-2.0"
 ],
 "platforms": [
-"Docker",
-"Java"
+"Python",
+"Docker"
 ],
 "tags": [
-"Document Management"
+"Internet of Things (IoT)"
 ],
-"source_code_url": "https://github.com/Stirling-Tools/Stirling-PDF",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/stirling-pdf.webp",
-"stargazers_count": 95525,
-"updated_at": "2026-10-30",
+"source_code_url": "https://github.com/home-assistant/core",
+"demo_url": "https://home-assistant.io/demo/",
+"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/home-assistant.webp",
+"stargazers_count": 92079,
+"updated_at": "2026-11-09",
 "archived": false,
 "current_release": {
-"tag": "v3.2.2",
-"published_at": "2026-10-24"
+"tag": "2026.11.0",
+"published_at": "2026-11-04"
 },
 "commit_history": {
-"2025-12": 119,
-"2026-01": 131,
-"2026-02": 102,
-"2026-03": 116,
-"2026-04": 121,
-"2026-05": 118,
-"2026-06": 248,
-"2026-07": 213,
-"2026-08": 305,
-"2026-09": 309,
-"2026-10": 181,
-"2026-11": 0
-}
-},
-"jitsi/jitsi-meet": {
-"name": "Jitsi Meet",
-"website_url": "https://jitsi.org/Projects/JitsiMeet",
-"description": "WebRTC application that uses Jitsi Videobridge to provide high quality, scalable video conferences.",
-"licenses": [
-"Apache-2.0"
-],
-"platforms": [
-"Nodejs",
-"Docker",
-"deb"
-],
-"tags": [
-"Communication - Video Conferencing"
-],
-"source_code_url": "https://github.com/jitsi/jitsi-meet",
-"demo_url": "https://meet.jit.si",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/jitsi-meet.webp",
-"stargazers_count": 30180,
-"updated_at": "2026-10-31",
-"archived": false,
-"current_release": {
-"tag": "stable/jitsi-meet_11248",
-"published_at": "2026-09-14"
-},
-"commit_history": {
-"2025-12": 29,
-"2026-01": 49,
-"2026-02": 75,
-"2026-03": 102,
-"2026-04": 66,
-"2026-05": 55,
-"2026-06": 87,
-"2026-07": 85,
-"2026-08": 62,
-"2026-09": 132,
-"2026-10": 151,
-"2026-11": 0
+"2025-12": 1379,
+"2026-01": 1024,
+"2026-02": 1524,
+"2026-03": 1623,
+"2026-04": 1550,
+"2026-05": 1701,
+"2026-06": 1773,
+"2026-07": 1589,
+"2026-08": 2235,
+"2026-09": 1749,
+"2026-10": 4555,
+"2026-11": 974
 }
 },
 "medusajs/medusa": {
@@ -2103,12 +2373,12 @@
 ],
 "source_code_url": "https://github.com/medusajs/medusa",
 "demo_url": "https://next.medusajs.com/",
-"stargazers_count": 37047,
-"updated_at": "2026-10-30",
+"stargazers_count": 37131,
+"updated_at": "2026-11-06",
 "archived": false,
 "current_release": {
-"tag": "v2.22.2",
-"published_at": "2026-10-30"
+"tag": "v2.22.4",
+"published_at": "2026-11-06"
 },
 "commit_history": {
 "2025-12": 163,
@@ -2122,277 +2392,7 @@
 "2026-08": 148,
 "2026-09": 223,
 "2026-10": 236,
-"2026-11": 0
-}
-},
-"actualbudget/actual": {
-"name": "Actual",
-"website_url": "https://actualbudget.org",
-"description": "Local-first personal finance tool based on zero-sum budgeting, supporting synchronization across devices, custom rules, manual transaction importing (from QIF, OFX, and QFX files), and optional automatic synchronization with many banks.",
-"licenses": [
-"MIT"
-],
-"platforms": [
-"Nodejs",
-"Docker"
-],
-"tags": [
-"Money, Budgeting & Management"
-],
-"source_code_url": "https://github.com/actualbudget/actual",
-"stargazers_count": 29905,
-"updated_at": "2026-11-02",
-"archived": false,
-"current_release": {
-"tag": "v26.10.0",
-"published_at": "2026-10-02"
-},
-"commit_history": {
-"2025-12": 110,
-"2026-01": 136,
-"2026-02": 117,
-"2026-03": 118,
-"2026-04": 182,
-"2026-05": 164,
-"2026-06": 165,
-"2026-07": 88,
-"2026-08": 89,
-"2026-09": 82,
-"2026-10": 162,
-"2026-11": 2
-}
-},
-"freshrss/freshrss": {
-"name": "FreshRSS",
-"website_url": "https://freshrss.org/",
-"description": "Self-hostable RSS feed aggregator.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"PHP",
-"Docker"
-],
-"tags": [
-"Feed Readers"
-],
-"source_code_url": "https://github.com/FreshRSS/FreshRSS",
-"demo_url": "https://demo.freshrss.org/i/",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/freshrss.webp",
-"stargazers_count": 16481,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "1.30.4",
-"published_at": "2026-10-21"
-},
-"commit_history": {
-"2025-12": 67,
-"2026-01": 56,
-"2026-02": 24,
-"2026-03": 55,
-"2026-04": 52,
-"2026-05": 97,
-"2026-06": 32,
-"2026-07": 99,
-"2026-08": 52,
-"2026-09": 66,
-"2026-10": 96,
-"2026-11": 8
-}
-},
-"iv-org/invidious": {
-"name": "Invidious",
-"website_url": "https://github.com/iv-org/invidious",
-"description": "Alternative YouTube front-end.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Docker",
-"Crystal"
-],
-"tags": [
-"Media Streaming - Video Streaming"
-],
-"source_code_url": "https://github.com/iv-org/invidious",
-"demo_url": "https://docs.invidious.io/instances/",
-"depends_3rdparty": true,
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/invidious.webp",
-"stargazers_count": 25821,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v2.20261022.0",
-"published_at": "2026-10-22"
-},
-"commit_history": {
-"2025-12": 27,
-"2026-01": 8,
-"2026-02": 21,
-"2026-03": 4,
-"2026-04": 10,
-"2026-05": 19,
-"2026-06": 16,
-"2026-07": 14,
-"2026-08": 101,
-"2026-09": 12,
-"2026-10": 42,
-"2026-11": 1
-}
-},
-"haiwen/seafile": {
-"name": "Seafile",
-"website_url": "https://www.seafile.com/en/home/",
-"description": "File hosting and sharing solution primary for teams and organizations.",
-"licenses": [
-"GPL-2.0",
-"GPL-3.0",
-"AGPL-3.0",
-"Apache-2.0"
-],
-"platforms": [
-"C"
-],
-"tags": [
-"File Transfer & Synchronization",
-"Groupware"
-],
-"source_code_url": "https://github.com/haiwen/seafile",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/seafile.webp",
-"stargazers_count": 15407,
-"updated_at": "2026-10-16",
-"archived": false,
-"current_release": {
-"tag": "v9.0.5",
-"published_at": "2024-02-27"
-},
-"commit_history": {
-"2025-12": 2,
-"2026-01": 4,
-"2026-02": 2,
-"2026-03": 3,
-"2026-04": 4,
-"2026-05": 1,
-"2026-06": 9,
-"2026-07": 6,
-"2026-08": 2,
-"2026-09": 0,
-"2026-10": 6,
-"2026-11": 0
-}
-},
-"tryghost/ghost": {
-"name": "Ghost",
-"website_url": "https://ghost.org/",
-"description": "Just a blogging platform.",
-"licenses": [
-"MIT"
-],
-"platforms": [
-"Nodejs"
-],
-"tags": [
-"Blogging Platforms"
-],
-"source_code_url": "https://github.com/TryGhost/Ghost",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/ghost.webp",
-"stargazers_count": 55651,
-"updated_at": "2026-11-01",
-"archived": false,
-"current_release": {
-"tag": "v6.73.0",
-"published_at": "2026-10-27"
-},
-"commit_history": {
-"2025-12": 172,
-"2026-01": 248,
-"2026-02": 413,
-"2026-03": 323,
-"2026-04": 503,
-"2026-05": 599,
-"2026-06": 774,
-"2026-07": 708,
-"2026-08": 642,
-"2026-09": 631,
-"2026-10": 1110,
-"2026-11": 18
-}
-},
-"libretranslate/libretranslate": {
-"name": "Libre Translate",
-"website_url": "https://libretranslate.com/",
-"description": "Machine Translation API.",
-"licenses": [
-"AGPL-3.0"
-],
-"platforms": [
-"Docker",
-"Python"
-],
-"tags": [
-"Miscellaneous"
-],
-"source_code_url": "https://github.com/LibreTranslate/LibreTranslate",
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/libretranslate.webp",
-"stargazers_count": 17245,
-"updated_at": "2026-10-26",
-"archived": false,
-"current_release": {
-"tag": "v1.9.6",
-"published_at": "2026-05-26"
-},
-"commit_history": {
-"2025-12": 41,
-"2026-01": 17,
-"2026-02": 51,
-"2026-03": 17,
-"2026-04": 3,
-"2026-05": 4,
-"2026-06": 11,
-"2026-07": 6,
-"2026-08": 7,
-"2026-09": 5,
-"2026-10": 8,
-"2026-11": 0
-}
-},
-"open-webui/open-webui": {
-"name": "Open-WebUI",
-"website_url": "https://openwebui.com",
-"source_code_url": "https://github.com/open-webui/open-webui",
-"description": "User-friendly AI Interface, supports Ollama, OpenAI API.",
-"licenses": [
-"BSD-3-Clause"
-],
-"platforms": [
-"Docker",
-"Python"
-],
-"tags": [
-"Generative Artificial Intelligence (GenAI)"
-],
-"icon_url": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/open-webui.webp",
-"stargazers_count": 157488,
-"updated_at": "2026-10-29",
-"archived": false,
-"current_release": {
-"tag": "v0.12.5",
-"published_at": "2026-10-29"
-},
-"commit_history": {
-"2025-12": 322,
-"2026-01": 280,
-"2026-02": 505,
-"2026-03": 503,
-"2026-04": 387,
-"2026-05": 309,
-"2026-06": 439,
-"2026-07": 675,
-"2026-08": 552,
-"2026-09": 508,
-"2026-10": 1189,
-"2026-11": 0
+"2026-11": 80
 }
 }
 }
